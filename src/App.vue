@@ -1,4 +1,9 @@
 <script setup lang="ts">
+import { useI18n } from 'vue-i18n';
+
+const { t, locale } = useI18n();
+
+/** 滑動頁面 */
 const scrollToSection = (target: string) => {
   const el = document.getElementById(target);
 
@@ -11,13 +16,21 @@ const scrollToSection = (target: string) => {
     );
   }
 };
+
+/** 改變語言 */
+const changeLanguage = (lang: string) => {
+  locale.value = lang;
+};
+
 </script>
 
 <template>
   <header class="header">
-    <el-button @click="scrollToSection('section1')">S1</el-button>
-    <el-button @click="scrollToSection('section2')">S2</el-button>
-    <el-button @click="scrollToSection('section3')">S3</el-button>
+    <el-button @click="scrollToSection('section1')">{{ t('title.opt1') }}</el-button>
+    <el-button @click="scrollToSection('section2')">{{ t('title.opt2') }}</el-button>
+    <el-button @click="scrollToSection('section3')">{{ t('title.opt3') }}</el-button>
+    <el-button @click="changeLanguage('en')">en</el-button>
+    <el-button @click="changeLanguage('zh')">zh</el-button>
   </header>
   <div class="contain">
     <div class="section" id="section1" style="background-color: pink;">

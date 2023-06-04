@@ -1,0 +1,11 @@
+{
+  "title": {
+    "opt1": "Option 1",
+    "opt2": "Option 2",
+    "opt3": "Option 3"
+  },
+  "Option 1": {
+    "Personal Info": "Personal Info",
+    "Name": "Name"
+  }
+}
