@@ -13,7 +13,7 @@ import zh from './lang/zh.json';
 
 const i18n = createI18n({
   legacy: false,
-  locale: 'en', // 預設語言
+  locale: 'zh', // 預設語言
   messages: {
     en,
     zh,
