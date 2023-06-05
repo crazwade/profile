@@ -1,9 +1,9 @@
 {
   "title": {
-    "opt1": "Personal Info",
-    "opt2": "Work Experience",
-    "opt3": "Technical Skills",
-    "opt4": "Contact Me"
+    "section1": "Personal Info",
+    "section2": "Work Experience",
+    "section3": "Technical Skills",
+    "section4": "Contact Me"
   },
   "Option 1": {
     "Personal Info": "Personal Info",

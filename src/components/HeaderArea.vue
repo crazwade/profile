@@ -1,10 +1,19 @@
 <template>
   <header class="header" :class="showMenu ? 'menu' : ''">
     <div class="menu" v-if="!showMenu">
-      <el-link icon="User" type="primary" @click="scrollToSection('section1')">{{ t('title.opt1') }}</el-link>
-      <el-link icon="Suitcase" type="success" @click="scrollToSection('section2')">{{ t('title.opt2') }}</el-link>
-      <el-link icon="Tools" type="warning" @click="scrollToSection('section3')">{{ t('title.opt3') }}</el-link>
-      <el-link icon="Paperclip" type="info" @click="scrollToSection('section4')">{{ t('title.opt4') }}</el-link>
+      <el-link
+        v-for="item in data.Menu"
+        :key="item.index"
+        :icon="item.icon"
+        :type="item.type"
+        @click="scrollToSection(`section${item.index}`)"
+      >
+        {{ t(`title.section${item.index}`) }}
+      </el-link>
+      <!-- <el-link icon="User" type="primary" @click="scrollToSection('section1')">{{ t('title.section1') }}</el-link>
+      <el-link icon="Suitcase" type="success" @click="scrollToSection('section2')">{{ t('title.section2') }}</el-link>
+      <el-link icon="Tools" type="warning" @click="scrollToSection('section3')">{{ t('title.section3') }}</el-link>
+      <el-link icon="Paperclip" type="info" @click="scrollToSection('section4')">{{ t('title.section4') }}</el-link> -->
     </div>
     <div class="menu_item" v-else>
       <el-dropdown>
@@ -16,19 +25,33 @@
         </span>
         <template #dropdown>
           <el-dropdown-menu>
-            <el-dropdown-item @click="scrollToSection('section1')">
-              <el-icon><User /></el-icon>{{ t('title.opt1') }}
-            </el-dropdown-item>
-            <el-dropdown-item @click="scrollToSection('section2')">
-              <el-icon><Suitcase /></el-icon>{{ t('title.opt2') }}
-            </el-dropdown-item>
-            <el-dropdown-item @click="scrollToSection('section3')">
-              <el-icon><Tools /></el-icon>{{ t('title.opt3') }}
-            </el-dropdown-item>
-            <el-dropdown-item @click="scrollToSection('section4')">
-              <el-icon><Paperclip /></el-icon>{{ t('title.opt4') }}
+            <el-dropdown-item
+              v-for="item in data.Menu"
+              :key="item.index"
+              @click="scrollToSection(`section${item.index}`)"
+            >
+              <el-link
+                :icon="item.icon"
+                :type="item.type"
+              >
+                {{ t(`title.section${item.index}`) }}
+              </el-link>
             </el-dropdown-item>
           </el-dropdown-menu>
+          <!-- <el-dropdown-menu>
+            <el-dropdown-item @click="scrollToSection('section1')">
+              <el-icon><User /></el-icon>{{ t('title.section1') }}
+            </el-dropdown-item>
+            <el-dropdown-item @click="scrollToSection('section2')">
+              <el-icon><Suitcase /></el-icon>{{ t('title.section2') }}
+            </el-dropdown-item>
+            <el-dropdown-item @click="scrollToSection('section3')">
+              <el-icon><Tools /></el-icon>{{ t('title.section3') }}
+            </el-dropdown-item>
+            <el-dropdown-item @click="scrollToSection('section4')">
+              <el-icon><Paperclip /></el-icon>{{ t('title.section4') }}
+            </el-dropdown-item>
+          </el-dropdown-menu> -->
         </template>
       </el-dropdown>
     </div>
@@ -48,6 +71,7 @@
 <script setup lang="ts">
 import { computed } from 'vue';
 import { useI18n } from 'vue-i18n';
+import data from '../data/menuData';
 
 const { t } = useI18n();
 

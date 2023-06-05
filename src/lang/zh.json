@@ -1,9 +1,9 @@
 {
   "title": {
-    "opt1": "個人資訊",
-    "opt2": "工作經歷",
-    "opt3": "技能樹",
-    "opt4": "聯繫方式"
+    "section1": "個人資訊",
+    "section2": "工作經歷",
+    "section3": "技能樹",
+    "section4": "聯繫方式"
   },
   "Option 1": {
     "Personal Info": "個人資訊",
