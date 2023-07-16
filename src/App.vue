@@ -6,18 +6,18 @@
     @handleLangChange="handleLangChange"
   />
   <div class="contain">
-    <div class="section" id="section1" style="background-color: pink;">
+    <PersonalInfo class="section" id="section1" style="background-color: pink;">
       Section1
-    </div>
-    <div class="section" id="section2" style="background-color: bisque;">
+    </PersonalInfo>
+    <WorkExperience class="section" id="section2" style="background-color: bisque;">
       Section2
-    </div>
-    <div class="section" id="section3" style="background-color: coral;">
+    </WorkExperience>
+    <TechnicalSkills class="section" id="section3" style="background-color: coral;">
       Section3
-    </div>
-    <div class="section" id="section4" style="background-color: violet;">
+    </TechnicalSkills>
+    <ContactMe class="section" id="section4" style="background-color: violet;">
       Section4
-    </div>
+    </ContactMe>
   </div>
 </template>
 
@@ -25,6 +25,10 @@
 import { ref, computed, watch, onMounted } from 'vue';
 import { useI18n } from 'vue-i18n';
 import HeaderArea from './view/HeaderArea.vue';
+import PersonalInfo from './view/PersonalInfo.vue';
+import WorkExperience from './view/WorkExperience.vue';
+import TechnicalSkills from './view/TechnicalSkills.vue';
+import ContactMe from './view/ContactMe.vue';
 
 const { t, locale } = useI18n();
 const langValue = ref(false);
