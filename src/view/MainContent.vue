@@ -1,6 +1,6 @@
 <template>
   <div>
-    Work Experience
+    main content
   </div>
 </template>
 

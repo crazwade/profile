@@ -1,12 +1,66 @@
 {
-  "title": {
-    "section1": "Personal Info",
-    "section2": "Work Experience",
-    "section3": "Technical Skills",
-    "section4": "Contact Me"
+  "info" : {
+    "name": "Kuo Yang Wu",
+    "degree": "B.S., Information Management, University of Kaohsiung, Grad. 2019",
+    "content": [
+      {
+        "linkedin": "https://www.linkedin.com/in/jackywu1216/"
+      },
+      {
+        "github": "https://github.com/crazwade"
+      },
+      {
+        "email": "jakcywu526@gmail.com"
+      }
+    ]
   },
-  "Option 1": {
-    "Personal Info": "Personal Info",
-    "Name": "Name"
-  }
+  "experience": [
+    {
+      "company": "MELODY PUBLISHING CO., LTD.",
+      "time": "2018/10 - 2019/01",
+      "title": "Front-End Developer",
+      "skill": [
+        "HTML5"
+      ],
+      "project": [
+        {
+          "name": "Online English Teaching Platform",
+          "skill": [
+            "HTML5"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Sakawa Technology Co., LTD.",
+      "time": "2021/10 - now",
+      "title": "Front-End Developer",
+      "skill": [
+        "TypeScript(Vue)",
+        "RESTful API"
+      ],
+      "project": [
+        {
+          "name": "Background management system",
+          "skill": [
+            "TypeScript(Vue)",
+            "RESTful API",
+            "Socket.io",
+            "Element-plus",
+            "Tailwind CSS"
+          ]
+        },
+        {
+          "name": "Front Website",
+          "skill": [
+            "TypeScript(Vue)",
+            "RESTful API",
+            "Socket.io",
+            "Element-plus",
+            "Tailwind CSS"
+          ]
+        }
+      ]
+    }
+  ]
 }

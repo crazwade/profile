@@ -1,10 +1,11 @@
-import './assets/main.css';
 
 import { createApp } from 'vue';
 import App from './App.vue';
 import ElementPlus from 'element-plus';
 import { createI18n } from 'vue-i18n';
 import 'element-plus/dist/index.css';
+import './assets/tailwind.css';
+import './assets/main.css';
 
 import * as ElementPlusIconsVue from '@element-plus/icons-vue';
 

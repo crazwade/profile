@@ -1,12 +1,66 @@
 {
-  "title": {
-    "section1": "個人資訊",
-    "section2": "工作經歷",
-    "section3": "技能樹",
-    "section4": "聯繫方式"
+  "info" : {
+    "name": "吳國揚",
+    "degree": "國立高雄大學資訊管理學系 2019畢",
+    "content": [
+      {
+        "linkedin": "https://www.linkedin.com/in/jackywu1216/"
+      },
+      {
+        "github": "https://github.com/crazwade"
+      },
+      {
+        "email": "jakcywu526@gmail.com"
+      }
+    ]
   },
-  "Option 1": {
-    "Personal Info": "個人資訊",
-    "Name": "名字"
-  }
+  "experience": [
+    {
+      "company": "美樂蒂文教科技興業股份有限公司",
+      "time": "2018/10 - 2019/01",
+      "title": "前端工程師",
+      "skill": [
+        "HTML5"
+      ],
+      "project": [
+        {
+          "name": "線上英文教學平台",
+          "skill": [
+            "HTML5"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "坂和企業有限公司",
+      "time": "2021/10 - now",
+      "title": "前端工程師",
+      "skill": [
+        "TypeScript(Vue)",
+        "RESTful API"
+      ],
+      "project": [
+        {
+          "name": "後臺管理系統",
+          "skill": [
+            "TypeScript(Vue)",
+            "RESTful API",
+            "Socket.io",
+            "Element-plus",
+            "Tailwind CSS"
+          ]
+        },
+        {
+          "name": "前台",
+          "skill": [
+            "TypeScript(Vue)",
+            "RESTful API",
+            "Socket.io",
+            "Element-plus",
+            "Tailwind CSS"
+          ]
+        }
+      ]
+    }
+  ]
 }
