@@ -1,7 +1,11 @@
 {
+  "setting": {
+    "title": "設定",
+    "lang": "語言"
+  },
   "info" : {
     "name": "吳國揚",
-    "degree": "國立高雄大學資訊管理學系 2019畢",
+    "degree": "高雄大學資訊管理學系 2019畢業",
     "content": [
       {
         "linkedin": "https://www.linkedin.com/in/jackywu1216/"

@@ -1,4 +1,8 @@
 {
+  "setting": {
+    "title": "Setting",
+    "lang": "Language"
+  },
   "info" : {
     "name": "Kuo Yang Wu",
     "degree": "B.S., Information Management, University of Kaohsiung, Grad. 2019",

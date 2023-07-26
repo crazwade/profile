@@ -1,12 +1,11 @@
 <template>
-  <div class=" static w-full h-full bg-orange-400">
+  <div class=" relative w-full h-full p-4">
     {{ $t("info.name") }}
+    <MainContent class="contain" />
     <ControlBtn
-      class="controlBtn absolute bottom-0 right-0"
       @langChange="langChange"
       :langValue="langValue"
     />
-    <MainContent class="contain" />
   </div>
 </template>
 

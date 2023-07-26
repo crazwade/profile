@@ -9,7 +9,3 @@ body {
   overflow: hidden;
   position: relative;
 }
-
-:root {
-  --el-text-color-primary: white !important;
-}
