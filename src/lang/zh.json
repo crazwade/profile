@@ -5,24 +5,13 @@
     "pdf": "生成 PDF"
   },
   "info" : {
-    "name": "吳國揚",
-    "degree": "高雄大學資訊管理學系 2019畢業",
-    "content": [
-      {
-        "linkedin": "https://www.linkedin.com/in/jackywu1216/"
-      },
-      {
-        "github": "https://github.com/crazwade"
-      },
-      {
-        "email": "jakcywu526@gmail.com"
-      }
-    ]
+    "name": "我是名字",
+    "degree": "高雄大學資訊管理學系 2019畢業"
   },
   "experience": [
     {
       "company": "美樂蒂文教科技興業股份有限公司",
-      "time": "2018/10 - 2019/01",
+      "long": "2018/10 - 2019/01",
       "title": "前端工程師",
       "skill": [
         "HTML5"
@@ -38,7 +27,7 @@
     },
     {
       "company": "坂和企業有限公司",
-      "time": "2021/10 - now",
+      "long": "2021/10 - now",
       "title": "前端工程師",
       "skill": [
         "TypeScript(Vue)",

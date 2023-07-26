@@ -1,0 +1,86 @@
+<template>
+  <div>
+    <el-row>
+      <el-col :span="16">
+        <div class=" text-5xl">{{ $t('info.name') }}</div>
+        <div class=" text-sm my-4">{{ $t('info.degree') }}</div>
+        <div class=" border-t-2 border-gray-400 w-[85%]"></div>
+      </el-col>
+      <el-col :span="8">
+        <div
+          v-for="item in social"
+          :key="item.name"
+          class=" my-2 icon-link flex items-center hover:text-blue-700 hover:underline hover:font-bold"
+        >
+          <a
+            :href="item.link"
+            target="_blank"
+            class=" mx-1"
+          >
+            <i v-if="item.name === 'email'" class="far fa-envelope"></i>
+            <i v-else :class="`fab fa-${item.name}`"></i>
+          </a>
+          <a
+            :href="item.name === 'email' ? `mailto:${item.link}` : item.link"
+            target="_blank"
+            class=" mx-1"
+          >
+            <span>{{ item.title }}</span>
+          </a>
+        </div>
+      </el-col>
+    </el-row>
+    <el-row>
+      <el-col :span="24">
+        <div>
+          <el-tag
+            v-for="(item, index) in skills"
+            :key="index"
+            type="info"
+            class=" ml-2 my-2 text-stone-950"
+          >
+            {{ item }}
+          </el-tag>
+        </div>
+      </el-col>
+    </el-row>
+  </div>
+</template>
+
+<script setup lang='ts'>
+
+const social = [
+  {
+    "name": "linkedin",
+    "link": "https://www.linkedin.com/in/jackywu1216/",
+    "title": "jackywu1216"
+  },
+  {
+    "name": "github",
+    "link": "https://github.com/crazwade",
+    "title": "crazwade"
+  },
+  {
+    "name": "email",
+    "link": "jackywu526@gmail.com",
+    "title": "jackywu526"
+  }
+];
+
+const skills = [
+  "HTML",
+  "CSS",
+  "JavaScript(ES6)",
+  "TypeScript(Vue)",
+  "RESTful API",
+  "Element Plus",
+  "Tailwind CSS",
+  "Pinia",
+  "Git"
+];
+
+</script>
+
+<style lang="scss" scoped>
+
+</style>
