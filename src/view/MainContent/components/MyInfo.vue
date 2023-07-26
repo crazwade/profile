@@ -2,7 +2,7 @@
   <div>
     <el-row>
       <el-col :span="16">
-        <div class=" text-5xl">{{ $t('info.name') }}</div>
+        <div class=" text-5xl mt-2">{{ $t('info.name') }}</div>
         <div class=" text-sm my-4">{{ $t('info.degree') }}</div>
         <div class=" border-t-2 border-gray-400 w-[85%]"></div>
       </el-col>
@@ -10,15 +10,15 @@
         <div
           v-for="item in social"
           :key="item.name"
-          class=" my-2 icon-link flex items-center hover:text-blue-700 hover:underline hover:font-bold"
+          class=" my-2 icon-link flex hover:text-blue-700 hover:underline hover:font-bold"
         >
           <a
             :href="item.link"
             target="_blank"
             class=" mx-1"
           >
-            <i v-if="item.name === 'email'" class="far fa-envelope"></i>
-            <i v-else :class="`fab fa-${item.name}`"></i>
+            <i v-if="item.name === 'email'" class="far fa-envelope text-2xl"></i>
+            <i v-else :class="`fab fa-${item.name} text-2xl`"></i>
           </a>
           <a
             :href="item.name === 'email' ? `mailto:${item.link}` : item.link"

@@ -1,13 +1,15 @@
 <template>
-  <div class=" relative w-full h-full p-4">
-    <MainContent
-      ref="MainContentRef"
-    />
-    <ControlArea
-      @langChange="langChange"
-      @exportPDF="exportPDF"
-      :langValue="langValue"
-    />
+  <div class="flex justify-center items-center h-screen bg-neutral-600">
+    <div class=" relative max-w-[918px] h-full p-4 bg-white py-5 px-5">
+      <MainContent
+        ref="MainContentRef"
+      />
+      <ControlArea
+        @langChange="langChange"
+        @exportPDF="exportPDF"
+        :langValue="langValue"
+      />
+    </div>
   </div>
 </template>
 
