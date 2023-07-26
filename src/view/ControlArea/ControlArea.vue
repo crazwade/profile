@@ -15,17 +15,24 @@
     :title="$t('setting.title')"
     :before-close="handleClose"
   >
-    <span>{{ $t('setting.lang') }}</span>
+  <div class="dialogLabel">
+    <span>{{ $t('setting.lang') }}:</span>
     <el-switch
       v-model="localLangSelect"
       size="large"
       active-text="English"
       inactive-text="中文"
     />
+  </div>
+  <div class="dialogLabel">
+    <span>{{ $t('setting.pdf') }}:</span>
+    <ElButton @click="exportPDF">Export</ElButton>
+  </div>
   </el-dialog>
 </template>
 
 <script setup lang='ts'>
+import { ElButton } from 'element-plus';
 import { ref, watch, onMounted } from 'vue';
 
 const localLangSelect = ref(true);
@@ -41,6 +48,7 @@ onMounted(() => {
 
 const emits = defineEmits<{
   (e: 'langChange', value: boolean):void;
+  (e: 'exportPDF'):void;
 }>();
 
 watch(localLangSelect, () => {
@@ -51,9 +59,18 @@ const handleClose = () => {
   dialogVisible.value = false;
 };
 
-
+const exportPDF = () => {
+  // 呼叫 MainContent 的輸出 PDF 函式
+  emits('exportPDF');
+};
 </script>
 
 <style lang="scss" scoped>
-
+.dialogLabel {
+  display: flex;
+  flex-direction: column;
+  span {
+    margin: 10px 0;
+  }
+}
 </style>

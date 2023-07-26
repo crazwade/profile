@@ -1,7 +1,8 @@
 {
   "setting": {
     "title": "設定",
-    "lang": "語言"
+    "lang": "語言設定",
+    "pdf": "生成 PDF"
   },
   "info" : {
     "name": "吳國揚",

@@ -1,9 +1,11 @@
 <template>
   <div class=" relative w-full h-full p-4">
-    {{ $t("info.name") }}
-    <MainContent class="contain" />
-    <ControlBtn
+    <MainContent
+      ref="MainContentRef"
+    />
+    <ControlArea
       @langChange="langChange"
+      @exportPDF="exportPDF"
       :langValue="langValue"
     />
   </div>
@@ -12,14 +14,18 @@
 <script setup lang="ts">
 import { ref, computed, watch } from 'vue';
 import { useI18n } from 'vue-i18n';
-import MainContent from './view/MainContent.vue';
-import ControlBtn from './view/ControlBtn.vue';
+import MainContent from './view/MainContent/MainContent.vue';
+import ControlArea from './view/ControlArea/ControlArea.vue';
 
 const { locale } = useI18n();
 const langValue = ref(false);
-
+const MainContentRef = ref<InstanceType<typeof MainContent>>();
 const langChange = (newLang: boolean) => {
   langValue.value = newLang;
+};
+
+const exportPDF = () => {
+  MainContentRef.value?.exportToPDF();
 };
 
 // 監聽 langValue 變化並設置 locale
@@ -35,14 +41,4 @@ watch(computedLocale, (newLocale) => {
 </script>
 
 <style lang="scss" scoped>
-.contain {
-  position: relative;
-  height: calc(100% - 60px);
-  width: 100%;
-  overflow: auto;
-  .section {
-    position: relative;
-    width: 100%;
-  }
-}
 </style>

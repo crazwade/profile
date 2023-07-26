@@ -1,7 +1,8 @@
 {
   "setting": {
     "title": "Setting",
-    "lang": "Language"
+    "lang": "Language Setting",
+    "pdf": "Export PDF"
   },
   "info" : {
     "name": "Kuo Yang Wu",
