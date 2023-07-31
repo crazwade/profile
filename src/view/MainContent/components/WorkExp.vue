@@ -1,9 +1,16 @@
 <template>
   <div>
     <div v-for="(item, index) in workExpItem" :key="index">
-      {{ item.company }}
       <div>
-        {{ item.time }}
+        <span>
+          {{ item.title }},
+        </span>
+        <span>
+          {{ item.company }},
+        </span>
+        <span>
+          {{ item.time }}
+        </span>
       </div>
     </div>
   </div>
