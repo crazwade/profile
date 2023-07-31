@@ -8,9 +8,15 @@
       </el-col>
       <el-col :span="8">
         <div
+<<<<<<< HEAD
           v-for="item in social"
           :key="item.name"
           class=" my-2 icon-link flex hover:text-blue-700 hover:underline hover:font-bold"
+=======
+          v-for="(item, index) in socialItem"
+          :key="index"
+          class=" my-2 icon-link flex items-center hover:text-blue-700 hover:underline hover:font-bold"
+>>>>>>> jacky/master
         >
           <a
             :href="item.link"
@@ -34,7 +40,7 @@
       <el-col :span="24">
         <div>
           <el-tag
-            v-for="(item, index) in skills"
+            v-for="(item, index) in tm('skills')"
             :key="index"
             type="info"
             class=" ml-2 my-2 text-stone-950"
@@ -48,36 +54,17 @@
 </template>
 
 <script setup lang='ts'>
+import { useI18n } from 'vue-i18n';
 
-const social = [
-  {
-    "name": "linkedin",
-    "link": "https://www.linkedin.com/in/jackywu1216/",
-    "title": "jackywu1216"
-  },
-  {
-    "name": "github",
-    "link": "https://github.com/crazwade",
-    "title": "crazwade"
-  },
-  {
-    "name": "email",
-    "link": "jackywu526@gmail.com",
-    "title": "jackywu526"
-  }
-];
+type SocialObj = {
+  name: string,
+  link: string,
+  title: string,
+}
 
-const skills = [
-  "HTML",
-  "CSS",
-  "JavaScript(ES6)",
-  "TypeScript(Vue)",
-  "RESTful API",
-  "Element Plus",
-  "Tailwind CSS",
-  "Pinia",
-  "Git"
-];
+const { tm } = useI18n();
+
+const socialItem = tm('social') as SocialObj[];
 
 </script>
 

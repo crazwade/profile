@@ -1,4 +1,32 @@
 {
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript(ES6)",
+    "TypeScript(Vue)",
+    "RESTful API",
+    "Element Plus",
+    "Tailwind CSS",
+    "Pinia",
+    "Git"
+  ],
+  "social": [
+    {
+      "name": "linkedin",
+      "link": "https://www.linkedin.com/in/jackywu1216/",
+      "title": "jackywu1216"
+    },
+    {
+      "name": "github",
+      "link": "https://github.com/crazwade",
+      "title": "crazwade"
+    },
+    {
+      "name": "email",
+      "link": "jackywu526@gmail.com",
+      "title": "jackywu526"
+    }
+  ],
   "setting": {
     "title": "Setting",
     "lang": "Language Setting",
@@ -12,7 +40,7 @@
     {
       "company": "MELODY PUBLISHING CO., LTD.",
       "time": "2018/10 - 2019/01",
-      "title": "Front-End Developer",
+      "title": "Frontend Engineer Intern",
       "skill": [
         "HTML5"
       ],
@@ -23,12 +51,17 @@
             "HTML5"
           ]
         }
+      ],
+      "content": [
+        "Collaborated with cross-functional teams, including backend engineers, graphic designers, and project managers",
+        "Integrated APIs and discussed API structures with backend engineers based on interface requirements",
+        "In large-scale projects, focusing on middleware tasks. Responsible for creating API interfaces, converting data types, and handling functions for API requests and payloads between frontend and backend"
       ]
     },
     {
       "company": "Sakawa Technology Co., LTD.",
       "time": "2021/10 - now",
-      "title": "Front-End Developer",
+      "title": "Jr. Frontend Developer",
       "skill": [
         "TypeScript(Vue)",
         "RESTful API"
