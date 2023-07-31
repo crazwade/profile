@@ -1,9 +1,44 @@
 {
-  "setting": {
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript(ES6)",
+    "TypeScript(Vue)",
+    "RESTful API",
+    "Element Plus",
+    "Tailwind CSS",
+    "Pinia",
+    "Git"
+  ],
+  "social": [
+    {
+      "name": "linkedin",
+      "link": "https://www.linkedin.com/in/jackywu1216/",
+      "title": "jackywu1216"
+    },
+    {
+      "name": "github",
+      "link": "https://github.com/crazwade",
+      "title": "crazwade"
+    },
+    {
+      "name": "email",
+      "link": "jackywu526@gmail.com",
+      "title": "jackywu526"
+    }
+  ],
+  "setting": [
+    {
     "title": "設定",
     "lang": "語言設定",
     "pdf": "生成 PDF"
-  },
+    },
+    {
+      "title": "設定2",
+      "lang": "語言設定2",
+      "pdf": "生成 PDF2"
+    }
+  ],
   "info" : {
     "name": "我是名字",
     "degree": "高雄大學資訊管理學系 2019畢業"
@@ -11,7 +46,7 @@
   "experience": [
     {
       "company": "美樂蒂文教科技興業股份有限公司",
-      "long": "2018/10 - 2019/01",
+      "time": "2018/10 - 2019/01",
       "title": "前端工程師",
       "skill": [
         "HTML5"
@@ -27,7 +62,7 @@
     },
     {
       "company": "坂和企業有限公司",
-      "long": "2021/10 - now",
+      "time": "2021/10 - now",
       "title": "前端工程師",
       "skill": [
         "TypeScript(Vue)",
