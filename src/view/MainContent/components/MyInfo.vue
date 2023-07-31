@@ -8,15 +8,9 @@
       </el-col>
       <el-col :span="8">
         <div
-<<<<<<< HEAD
-          v-for="item in social"
-          :key="item.name"
-          class=" my-2 icon-link flex hover:text-blue-700 hover:underline hover:font-bold"
-=======
           v-for="(item, index) in socialItem"
           :key="index"
           class=" my-2 icon-link flex items-center hover:text-blue-700 hover:underline hover:font-bold"
->>>>>>> jacky/master
         >
           <a
             :href="item.link"
