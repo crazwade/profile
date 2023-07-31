@@ -27,18 +27,11 @@
       "title": "jackywu526"
     }
   ],
-  "setting": [
-    {
+  "setting": {
     "title": "設定",
     "lang": "語言設定",
     "pdf": "生成 PDF"
-    },
-    {
-      "title": "設定2",
-      "lang": "語言設定2",
-      "pdf": "生成 PDF2"
-    }
-  ],
+  },
   "info" : {
     "name": "吳國揚",
     "degree": "資訊管理學士, 國立高雄大學, 2019年畢業"
