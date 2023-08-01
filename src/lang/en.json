@@ -38,30 +38,10 @@
   },
   "experience": [
     {
-      "company": "MELODY PUBLISHING CO., LTD.",
-      "time": "2018/10 - 2019/01",
-      "title": "Frontend Engineer Intern",
-      "skill": [
-        "HTML5"
-      ],
-      "project": [
-        {
-          "name": "Online English Teaching Platform",
-          "skill": [
-            "HTML5"
-          ]
-        }
-      ],
-      "content": [
-        "Collaborated with cross-functional teams, including backend engineers, graphic designers, and project managers",
-        "Integrated APIs and discussed API structures with backend engineers based on interface requirements",
-        "In large-scale projects, focusing on middleware tasks. Responsible for creating API interfaces, converting data types, and handling functions for API requests and payloads between frontend and backend"
-      ]
-    },
-    {
       "company": "Sakawa Technology Co., LTD.",
-      "time": "2021/10 - now",
+      "time": "Oct 2021 - Present",
       "title": "Jr. Frontend Developer",
+      "local": "Kaohsiung",
       "skill": [
         "TypeScript(Vue)",
         "RESTful API"
@@ -87,6 +67,69 @@
             "Tailwind CSS"
           ]
         }
+      ],
+      "content": [
+        "Collaborated with cross-functional teams, including backend engineers, graphic designers, and project managers",
+        "Integrated APIs and discussed API structures with backend engineers based on interface requirements",
+        "In large-scale projects, focusing on middleware tasks. Responsible for creating API interfaces, converting data types, and handling functions for API requests and payloads between frontend and backend"
+      ]
+    },
+    {
+      "company": "AppleBuds Inc.",
+      "time": "Oct 2019 - Present",
+      "title": "Programming Instructor",
+      "local": "Kaohsiung",
+      "skill": [
+        "HTML",
+        "Python",
+        "JavaScript(ES5)"
+      ],
+      "project": [
+        {
+          "name": "Background management system",
+          "skill": [
+            "TypeScript(Vue)",
+            "RESTful API",
+            "Socket.io",
+            "Element-plus",
+            "Tailwind CSS"
+          ]
+        },
+        {
+          "name": "Front Website",
+          "skill": [
+            "TypeScript(Vue)",
+            "RESTful API",
+            "Socket.io",
+            "Element-plus",
+            "Tailwind CSS"
+          ]
+        }
+      ],
+      "content": [
+        "Guided students below high school level in learning foundational programming languages and provided assistance in completing their projects"
+      ]
+    },
+    {
+      "company": "MELODY PUBLISHING CO., LTD.",
+      "time": "Oct 2018 - Jan 2019",
+      "title": "Frontend Engineer Intern",
+      "local": "Kaohsiung",
+      "skill": [
+        "HTML5"
+      ],
+      "project": [
+        {
+          "name": "Online English Teaching Platform",
+          "skill": [
+            "HTML5"
+          ]
+        }
+      ],
+      "content": [
+        "Built online English teaching platform",
+        "Assisted in organizing API documentation and specification files",
+        "Developed interface content based on specification documents by using HTML5 and native JavaScript"
       ]
     }
   ]
