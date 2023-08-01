@@ -41,8 +41,6 @@ type WorkExpType = {
   content: string[];
 }
 
-const listData = ['Item 1', 'Item 2', 'Item 3', 'Item 4', 'Item 5'];
-
 const workExpItem = ref<WorkExpType[]>(tm('experience') as WorkExpType[]);
 
 watch(() => locale.value, () => {
