@@ -44,29 +44,11 @@
       "local": "高雄",
       "skill": [
         "TypeScript(Vue)",
-        "RESTful API"
-      ],
-      "project": [
-        {
-          "name": "後臺管理系統",
-          "skill": [
-            "TypeScript(Vue)",
-            "RESTful API",
-            "Socket.io",
-            "Element-plus",
-            "Tailwind CSS"
-          ]
-        },
-        {
-          "name": "前台",
-          "skill": [
-            "TypeScript(Vue)",
-            "RESTful API",
-            "Socket.io",
-            "Element-plus",
-            "Tailwind CSS"
-          ]
-        }
+        "JavaScript(ES6)",
+        "RESTful API",
+        "Socket.io",
+        "Element-plus",
+        "Tailwind CSS"
       ],
       "content": [
         "與跨部門團隊合作，成員包括後端工程師、平面設計師和專案經理",
@@ -84,28 +66,6 @@
         "Python",
         "JavaScript(ES5)"
       ],
-      "project": [
-        {
-          "name": "後臺管理系統",
-          "skill": [
-            "TypeScript(Vue)",
-            "RESTful API",
-            "Socket.io",
-            "Element-plus",
-            "Tailwind CSS"
-          ]
-        },
-        {
-          "name": "前台",
-          "skill": [
-            "TypeScript(Vue)",
-            "RESTful API",
-            "Socket.io",
-            "Element-plus",
-            "Tailwind CSS"
-          ]
-        }
-      ],
       "content": [
         "教導高中以下學生學習基礎程式語言，並協助完成他們的專案"
       ]
@@ -116,15 +76,8 @@
       "title": "前端工程師",
       "local": "高雄",
       "skill": [
-        "HTML5"
-      ],
-      "project": [
-        {
-          "name": "線上英文教學平台",
-          "skill": [
-            "HTML5"
-          ]
-        }
+        "HTML5",
+        "JavaScript(ES5)"
       ],
       "content": [
         "建置線上英語教學平台",

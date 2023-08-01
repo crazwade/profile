@@ -44,29 +44,11 @@
       "local": "Kaohsiung",
       "skill": [
         "TypeScript(Vue)",
-        "RESTful API"
-      ],
-      "project": [
-        {
-          "name": "Background management system",
-          "skill": [
-            "TypeScript(Vue)",
-            "RESTful API",
-            "Socket.io",
-            "Element-plus",
-            "Tailwind CSS"
-          ]
-        },
-        {
-          "name": "Front Website",
-          "skill": [
-            "TypeScript(Vue)",
-            "RESTful API",
-            "Socket.io",
-            "Element-plus",
-            "Tailwind CSS"
-          ]
-        }
+        "JavaScript(ES6)",
+        "RESTful API",
+        "Socket.io",
+        "Element-plus",
+        "Tailwind CSS"
       ],
       "content": [
         "Collaborated with cross-functional teams, including backend engineers, graphic designers, and project managers",
@@ -84,28 +66,6 @@
         "Python",
         "JavaScript(ES5)"
       ],
-      "project": [
-        {
-          "name": "Background management system",
-          "skill": [
-            "TypeScript(Vue)",
-            "RESTful API",
-            "Socket.io",
-            "Element-plus",
-            "Tailwind CSS"
-          ]
-        },
-        {
-          "name": "Front Website",
-          "skill": [
-            "TypeScript(Vue)",
-            "RESTful API",
-            "Socket.io",
-            "Element-plus",
-            "Tailwind CSS"
-          ]
-        }
-      ],
       "content": [
         "Guided students below high school level in learning foundational programming languages and provided assistance in completing their projects"
       ]
@@ -116,15 +76,8 @@
       "title": "Frontend Engineer Intern",
       "local": "Kaohsiung",
       "skill": [
-        "HTML5"
-      ],
-      "project": [
-        {
-          "name": "Online English Teaching Platform",
-          "skill": [
-            "HTML5"
-          ]
-        }
+        "HTML5",
+        "JavaScript(ES5)"
       ],
       "content": [
         "Built online English teaching platform",
