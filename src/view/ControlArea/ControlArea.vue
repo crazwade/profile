@@ -60,7 +60,6 @@ const handleClose = () => {
 };
 
 const exportPDF = () => {
-  // 呼叫 MainContent 的輸出 PDF 函式
   emits('exportPDF');
 };
 </script>

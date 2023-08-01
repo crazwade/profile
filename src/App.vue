@@ -27,7 +27,13 @@ const langChange = (newLang: boolean) => {
 };
 
 const exportPDF = () => {
-  MainContentRef.value?.exportToPDF();
+  const filename = 'English Resume.pdf';
+  const fileURL = '/src/assets/file/English_resume.pdf';
+
+  const link = document.createElement('a');
+  link.href = fileURL;
+  link.setAttribute('download', filename);
+  link.click();
 };
 
 // 監聽 langValue 變化並設置 locale
