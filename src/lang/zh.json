@@ -89,19 +89,19 @@
   "project": [
     {
       "title": "ShareHub",
-      "detail": "ShareHub is an English article and image sharing platform that enables users to effortlessly share and explore interesting content.",
+      "detail": "英文文章和圖片的分享平台，讓使用者可以輕鬆分享和探索有趣的內容。該平台提供三個主要畫面",
       "content": [
-        "Built with Vue 3, Vite, Element Plus, and Tailwind CSS",
-        "Designed for internal use within an English-speaking community in the company, with an estimated user base of approximately 30-50 users"
+        "Vue 3, Vite, Element Plus, and Tailwind CSS",
+        "此項目專為公司內的英語社團所設計，預計使用者數量約為30至50人"
       ]
     },
     {
       "title": "NUK International Student Application System",
-      "detail": "Designed for international students and administrative staff. The system facilitates online applications and provides comprehensive front-end and back-end functionalities to streamline the application process.",
+      "detail": "此系統專為國際學生和行政人員所設計，方便線上申請並提供全面的前端和後端功能，以簡化申請流程",
       "content": [
         "Built with PHP, Native JavaScript(ES5) and MySQL",
-        "Front-end: Empowering international students to apply to NUK by enabling document uploads, data entry, material downloads, and application progress tracking",
-        "Back-end: Facilitating administrative staff at the international affairs office with tools for reviewing student submissions, conducting evaluations, and updating documents from the front-end"
+        "前台：讓國際學生能夠透過上傳文件、輸入資料、下載資料和追蹤申請進度等功能",
+        "後台：國際事務辦公室的行政人員使用，用以審核學生提交的申請、進行評估、更新相關下載文件功能"
       ]
     }
   ]
