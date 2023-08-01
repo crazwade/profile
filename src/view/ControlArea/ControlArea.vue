@@ -26,13 +26,12 @@
   </div>
   <div class="dialogLabel">
     <span>{{ $t('setting.pdf') }}:</span>
-    <ElButton @click="exportPDF">Export</ElButton>
+    <el-button @click="exportPDF">Export</el-button>
   </div>
   </el-dialog>
 </template>
 
 <script setup lang='ts'>
-import { ElButton } from 'element-plus';
 import { ref, watch, onMounted } from 'vue';
 
 const localLangSelect = ref(true);
