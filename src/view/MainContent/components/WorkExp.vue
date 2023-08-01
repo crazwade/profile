@@ -20,14 +20,7 @@
           <span v-if="skillIndex !== item.skill.length - 1" class=" mx-1"> / </span>
         </div>
       </div>
-      <el-row v-for="(list, listIndex) in item.content" :key="listIndex">
-        <el-col :span="24">
-          <div class=" flex items-start">
-            <el-icon size="24px" class=" my-2 ml-10"><List /></el-icon>
-            <div class=" flex-grow flex-shrink-1 text-sm leading-6 my-2 ml-2">{{ list }}</div>
-          </div>
-        </el-col>
-      </el-row>
+      <ItemList :data="item.content" />
     </div>
   </div>
 </template>
@@ -35,6 +28,7 @@
 <script setup lang='ts'>
 import { watch, ref } from 'vue';
 import { useI18n } from 'vue-i18n';
+import ItemList from '../../../components/ItemList.vue';
 
 const { tm, locale } = useI18n();
 

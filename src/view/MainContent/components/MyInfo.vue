@@ -2,7 +2,7 @@
   <div>
     <el-row>
       <el-col :span="16">
-        <div class=" text-5xl mt-2">{{ $t('info.name') }}</div>
+        <div class=" text-5xl mt-2 font-semibold">{{ $t('info.name') }}</div>
         <div class=" text-sm my-4">{{ $t('info.degree') }}</div>
         <div class=" border-t-2 border-gray-400 w-[85%]"></div>
       </el-col>

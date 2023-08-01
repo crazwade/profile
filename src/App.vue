@@ -1,6 +1,6 @@
 <template>
   <div class="flex justify-center items-center h-screen bg-neutral-600">
-    <div class=" relative max-w-[918px] h-full p-4 bg-white py-5 px-5">
+    <div class=" relative max-w-[918px] h-full p-4 bg-white py-5 px-5 overflow-y-auto">
       <MainContent
         ref="MainContentRef"
       />

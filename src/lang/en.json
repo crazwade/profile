@@ -132,5 +132,24 @@
         "Developed interface content based on specification documents by using HTML5 and native JavaScript"
       ]
     }
+  ],
+  "project": [
+    {
+      "title": "ShareHub",
+      "detail": "ShareHub is an English article and image sharing platform that enables users to effortlessly share and explore interesting content.",
+      "content": [
+        "Built with Vue 3, Vite, Element Plus, and Tailwind CSS",
+        "Designed for internal use within an English-speaking community in the company, with an estimated user base of approximately 30-50 users"
+      ]
+    },
+    {
+      "title": "NUK International Student Application System",
+      "detail": "Designed for international students and administrative staff. The system facilitates online applications and provides comprehensive front-end and back-end functionalities to streamline the application process.",
+      "content": [
+        "Built with PHP, Native JavaScript(ES5) and MySQL",
+        "Front-end: Empowering international students to apply to NUK by enabling document uploads, data entry, material downloads, and application progress tracking",
+        "Back-end: Facilitating administrative staff at the international affairs office with tools for reviewing student submissions, conducting evaluations, and updating documents from the front-end"
+      ]
+    }
   ]
 }
