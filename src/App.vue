@@ -27,8 +27,8 @@ const langChange = (newLang: boolean) => {
 };
 
 const exportPDF = () => {
-  const filename = 'English Resume.pdf';
-  const fileURL = '/src/assets/file/English_resume.pdf';
+  const filename = locale.value === 'en' ? 'English Resume.pdf' : '中文履歷.pdf';
+  const fileURL = locale.value === 'en' ? '/src/assets/file/English_resume.pdf' : '/src/assets/file/中文履歷.pdf';
 
   const link = document.createElement('a');
   link.href = fileURL;
