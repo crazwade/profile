@@ -1,6 +1,6 @@
 <template>
   <div class="flex justify-center items-center h-screen bg-neutral-600">
-    <div class=" relative max-w-[918px] h-full bg-white overflow-y-scroll p-8 pl-12 text-black">
+    <div class=" relative max-w-[918px] h-full bg-white overflow-y-scroll p-8 text-black">
       <MainContent
         ref="MainContentRef"
       />

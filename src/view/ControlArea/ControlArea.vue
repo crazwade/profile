@@ -1,6 +1,6 @@
 <template>
   <div
-    class="controlBtn fixed bottom-[10px] right-[10px] cursor-pointer transition-transform hover:scale-110"
+    class="controlBtn fixed bottom-[10px] right-[10px] cursor-pointer transition-transform hover:scale-110 bg-white rounded-[50%] p-1"
     @click="dialogVisible = true"
   >
     <el-icon
