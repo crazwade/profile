@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class=" text-2xl font-semibold my-3">
-      SIDE PROJECTS AND HOBBIES
+      {{ $t('sideproject') }}
     </div>
     <div v-for="(item, index) in sideProjItem" :key="index" class=" mt-3">
       <div class="inline">

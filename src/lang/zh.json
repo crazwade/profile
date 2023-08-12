@@ -8,8 +8,10 @@
     "Element Plus",
     "Tailwind CSS",
     "Pinia",
-    "Git"
+    "Git",
+    "ESLint"
   ],
+  "sideproject" : "作品集 ( 展示在Github )",
   "social": [
     {
       "name": "linkedin",
@@ -48,7 +50,8 @@
         "RESTful API",
         "Socket.io",
         "Element-plus",
-        "Tailwind CSS"
+        "Tailwind CSS",
+        "ESLint"
       ],
       "content": [
         "與跨部門團隊合作，成員包括後端工程師、平面設計師和專案經理",
@@ -96,12 +99,28 @@
       ]
     },
     {
-      "title": "NUK International Student Application System",
+      "title": "高雄大學線上申請系統",
       "detail": "此系統專為國際學生和行政人員所設計，方便線上申請並提供全面的前端和後端功能，以簡化申請流程",
       "content": [
         "Built with PHP, Native JavaScript(ES5) and MySQL",
         "前台：讓國際學生能夠透過上傳文件、輸入資料、下載資料和追蹤申請進度等功能",
         "後台：國際事務辦公室的行政人員使用，用以審核學生提交的申請、進行評估、更新相關下載文件功能"
+      ]
+    },
+    {
+      "title": "後台管理系統",
+      "detail": "資料使用表格展示、功能操作和資料匯出，並使用 Element Plus UI 庫提供豐富的使用者界面",
+      "content": [
+        "Vue 3, Vite, Element Plus, Pinia, Axios and RESTful API",
+        "這是一個後臺管理系統的示範專案，示範我所製作過的後台系統"
+      ]
+    },
+    {
+      "title": "學生紀錄管理系統",
+      "detail": "協助管理學生紀錄的應用程式，主要功能包括新增學生、使用 drag and draw 操作學生位置、選擇課程內容、填寫學習狀態和自動生成學習紀錄",
+      "content": [
+        "Vue 3, Vite, Element Plus and Tailwind CSS",
+        "此項目專為程式教學老師所設計，預計使用者數量約為20人 (高雄地區的老師們)"
       ]
     }
   ]

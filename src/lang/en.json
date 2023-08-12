@@ -8,8 +8,10 @@
     "Element Plus",
     "Tailwind CSS",
     "Pinia",
-    "Git"
+    "Git",
+    "ESLint"
   ],
+  "sideproject" : "SIDE PROJECTS ( Showcased on GitHub )",
   "social": [
     {
       "name": "linkedin",
@@ -102,6 +104,22 @@
         "Built with PHP, Native JavaScript(ES5) and MySQL",
         "Front-end: Empowering international students to apply to NUK by enabling document uploads, data entry, material downloads, and application progress tracking",
         "Back-end: Facilitating administrative staff at the international affairs office with tools for reviewing student submissions, conducting evaluations, and updating documents from the front-end"
+      ]
+    },
+    {
+      "title": "Backstage Management System",
+      "detail": "Designed for administering operations involving data table display, manipulation, and export. Utilizes the Element Plus UI library to provide a rich user interface.",
+      "content": [
+        "Built with Vue 3, Vite, Element Plus, Pinia, Axios, and RESTful API",
+        "This project showcases my ability to replicate backend systems based on work-related requirement"
+      ]
+    },
+    {
+      "title": "Classroom Student Record",
+      "detail": " Assist in organizing student information. Key features include student enrollment, drag-and-drop student repositioning, course selection, progress updates, and automated learning record creation.",
+      "content": [
+        "Built with Vue 3, Vite, Pinia, Element Plus, and Tailwind CSS",
+        "This project is specially designed for project teaching teachers, and the estimated number of users is about 20"
       ]
     }
   ]
