@@ -100,7 +100,7 @@
       "link": "https://crazwade.github.io/english-club/dist"
     },
     {
-      "title": "高雄大學線上申請系統",
+      "title": "國立高雄大學線上申請系統",
       "detail": "此系統專為國際學生和行政人員所設計，方便線上申請並提供全面的前端和後端功能，以簡化申請流程",
       "content": [
         "Built with PHP, Native JavaScript(ES5) and MySQL",
