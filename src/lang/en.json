@@ -95,7 +95,8 @@
       "content": [
         "Built with Vue 3, Vite, Element Plus, and Tailwind CSS",
         "Designed for internal use within an English-speaking community in the company, with an estimated user base of approximately 30-50 users"
-      ]
+      ],
+      "link": "https://crazwade.github.io/english-club/dist"
     },
     {
       "title": "NUK International Student Application System",
@@ -112,7 +113,8 @@
       "content": [
         "Built with Vue 3, Vite, Element Plus, Pinia, Axios, and RESTful API",
         "This project showcases my ability to replicate backend systems based on work-related requirement"
-      ]
+      ],
+      "link": "https://crazwade.github.io/BMS/dist"
     },
     {
       "title": "Classroom Student Record",
@@ -120,7 +122,8 @@
       "content": [
         "Built with Vue 3, Vite, Pinia, Element Plus, and Tailwind CSS",
         "This project is specially designed for project teaching teachers, and the estimated number of users is about 20"
-      ]
+      ],
+      "link": "https://crazwade.github.io/CSR/dist/"
     }
   ]
 }

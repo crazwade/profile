@@ -96,7 +96,8 @@
       "content": [
         "Vue 3, Vite, Element Plus, and Tailwind CSS",
         "此項目專為公司內的英語社團所設計，預計使用者數量約為30至50人"
-      ]
+      ],
+      "link": "https://crazwade.github.io/english-club/dist"
     },
     {
       "title": "高雄大學線上申請系統",
@@ -113,7 +114,8 @@
       "content": [
         "Vue 3, Vite, Element Plus, Pinia, Axios and RESTful API",
         "這是一個後臺管理系統的示範專案，示範我所製作過的後台系統"
-      ]
+      ],
+      "link": "https://crazwade.github.io/BMS/dist"
     },
     {
       "title": "學生紀錄管理系統",
@@ -121,7 +123,8 @@
       "content": [
         "Vue 3, Vite, Element Plus and Tailwind CSS",
         "此項目專為程式教學老師所設計，預計使用者數量約為20人 (高雄地區的老師們)"
-      ]
+      ],
+      "link": "https://crazwade.github.io/CSR/dist/"
     }
   ]
 }
