@@ -8,7 +8,7 @@
         <span
           v-if="item.link"
           class="font-semibold text-lg text-blue-500 cursor-pointer hover:text-blue-500 hover:underline"
-          @click="gotoDemo(item.link)"
+          @click="transferURL(item.link)"
         >
           {{ item.title }}
         </span>
@@ -27,6 +27,7 @@
 import { watch, ref } from 'vue';
 import { useI18n } from 'vue-i18n';
 import ItemList from '../../../components/ItemList.vue';
+import { transferURL } from '../../../common/transferURL';
 
 const { tm, locale } = useI18n();
 
@@ -38,10 +39,6 @@ type SideProjType = {
 }
 
 const sideProjItem = ref<SideProjType[]>(tm('project') as SideProjType[]);
-
-const gotoDemo = (url: string) => {
-  window.open(url, '_blank');
-};
 
 watch(() => locale.value, () => {
   sideProjItem.value = tm('project') as SideProjType[];
