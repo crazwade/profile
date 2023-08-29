@@ -56,7 +56,8 @@
         "Collaborated with cross-functional teams, including backend engineers, graphic designers, and project managers",
         "Integrated APIs and discussed API structures with backend engineers based on interface requirements",
         "In large-scale projects, focusing on middleware tasks. Responsible for creating API interfaces, converting data types, and handling functions for API requests and payloads between frontend and backend"
-      ]
+      ],
+      "link": "https://www.sakawa.com.tw/"
     },
     {
       "company": "AppleBuds Inc.",
@@ -70,7 +71,8 @@
       ],
       "content": [
         "Guided students below high school level in learning foundational programming languages and provided assistance in completing their projects"
-      ]
+      ],
+      "link": "https://orangeapple.co/"
     },
     {
       "company": "MELODY PUBLISHING CO., LTD.",
@@ -85,7 +87,8 @@
         "Built online English teaching platform",
         "Assisted in organizing API documentation and specification files",
         "Developed interface content based on specification documents by using HTML5 and native JavaScript"
-      ]
+      ],
+      "link": "https://melody.com.tw/"
     }
   ],
   "project": [
