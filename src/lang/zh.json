@@ -5,7 +5,8 @@
     "JavaScript(ES6)",
     "TypeScript(Vue)",
     "RESTful API",
-    "Element Plus",
+    "Socket.io",
+    "Element-Plus",
     "Tailwind CSS",
     "Pinia",
     "Git",
@@ -49,14 +50,16 @@
         "JavaScript(ES6)",
         "RESTful API",
         "Socket.io",
-        "Element-plus",
+        "Element-Plus",
         "Tailwind CSS",
-        "ESLint"
+        "ESLint",
+        "Pinia"
       ],
       "content": [
-        "與跨部門團隊合作，成員包括後端工程師、平面設計師和專案經理",
-        "整合 API 並與後端工程師討論 API 結構，以滿足頁面需求",
-        "在大型專案中，專注於中介層製作。負責建立 API 接口、轉換資料類型，並處理前端和後端之間的 API 請求和資料傳輸功能"
+        "跨部門團隊合作，成員包括後端工程師、美術設計師和專案經理",
+        "依照規格書執行製作並與後端工程師討論 API 結構，以滿足對接頁面的需求",
+        "在大型專案中，專注於中介層製作。負責建立 API 接口、轉換資料類型，並處理畫面端和後端 API 之間的請求和資料傳輸功能",
+        "具有依前端 UX 撰寫邏輯層程式和整併畫面元件的能力"
       ],
       "link": "https://www.sakawa.com.tw/"
     },
@@ -68,10 +71,13 @@
       "skill": [
         "HTML",
         "Python",
-        "JavaScript(ES5)"
+        "JavaScript(ES5)",
+        "TypeScript(Vue)",
+        "ESLint"
       ],
       "content": [
-        "教導高中以下學生學習基礎程式語言，並協助完成他們的專案"
+        "教導高中以下學生學習基礎程式語言，並協助完成他們的專案",
+        "製作學生紀錄管理系統，提供給教師們作為輔助教學以及撰寫課堂記錄使用"
       ],
       "link": "https://orangeapple.co/"
     },
@@ -87,7 +93,7 @@
       "content": [
         "建置線上英語教學平台",
         "協助整理 API 文件和規範文件",
-        "根據規範文件使用 HTML5 和原生 JavaScript 開發"
+        "根據規範文件製作並使用 HTML5 和原生 JavaScript 進行開發"
       ],
       "link": "https://melody.com.tw/"
     }

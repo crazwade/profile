@@ -5,7 +5,8 @@
     "JavaScript(ES6)",
     "TypeScript(Vue)",
     "RESTful API",
-    "Element Plus",
+    "Socket.io",
+    "Element-Plus",
     "Tailwind CSS",
     "Pinia",
     "Git",
@@ -42,20 +43,23 @@
     {
       "company": "Sakawa Technology Co., LTD.",
       "time": "Oct 2021 - Present",
-      "title": "Jr. Frontend Developer",
+      "title": "Frontend Developer",
       "local": "Kaohsiung",
       "skill": [
         "TypeScript(Vue)",
         "JavaScript(ES6)",
         "RESTful API",
         "Socket.io",
-        "Element-plus",
-        "Tailwind CSS"
+        "Element-Plus",
+        "Tailwind CSS",
+        "ESLint",
+        "Pinia"
       ],
       "content": [
         "Collaborated with cross-functional teams, including backend engineers, graphic designers, and project managers",
-        "Integrated APIs and discussed API structures with backend engineers based on interface requirements",
-        "In large-scale projects, focusing on middleware tasks. Responsible for creating API interfaces, converting data types, and handling functions for API requests and payloads between frontend and backend"
+        "Executed production based on specifications and collaborated with backend engineers to discuss API structures, meeting interface integration requirements",
+        "In large-scale projects, focusing on middleware tasks. Responsible for creating API interfaces, converting data types, and handling functions for API requests and payloads between frontend and backend",
+        "Proficient in writing logic layer code based on frontend UX and integrating UI components"
       ],
       "link": "https://www.sakawa.com.tw/"
     },
@@ -67,10 +71,13 @@
       "skill": [
         "HTML",
         "Python",
-        "JavaScript(ES5)"
+        "JavaScript(ES5)",
+        "TypeScript(Vue)",
+        "ESLint"
       ],
       "content": [
-        "Guided students below high school level in learning foundational programming languages and provided assistance in completing their projects"
+        "Guided students below high school level in learning foundational programming languages and provided assistance in completing their projects",
+        "Developed a Classroom Student Record System, provided to teachers as a tool for enhancing instruction and recording classroom data"
       ],
       "link": "https://orangeapple.co/"
     },
@@ -120,7 +127,7 @@
       "link": "https://crazwade.github.io/BMS/dist"
     },
     {
-      "title": "Classroom Student Record",
+      "title": "Classroom Student Record System",
       "detail": " Assist in organizing student information. Key features include student enrollment, drag-and-drop student repositioning, course selection, progress updates, and automated learning record creation.",
       "content": [
         "Built with Vue 3, Vite, Pinia, Element Plus, and Tailwind CSS",
