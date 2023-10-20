@@ -10,6 +10,7 @@
         :langValue="langValue"
       />
     </div>
+    <div class="version"> {{ version }}</div>
   </div>
 </template>
 
@@ -18,6 +19,8 @@ import { ref, computed, watch } from 'vue';
 import { useI18n } from 'vue-i18n';
 import MainContent from './view/MainContent/MainContent.vue';
 import ControlArea from './view/ControlArea/ControlArea.vue';
+
+const version = process.env.APP_VERSION;
 
 const { locale } = useI18n();
 const langValue = ref(false);
@@ -49,4 +52,13 @@ watch(computedLocale, (newLocale) => {
 </script>
 
 <style lang="scss" scoped>
+.version {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding: 0.2rem;
+  font-size: 0.5rem;
+  color: black;
+  opacity: 0.8;
+}
 </style>
