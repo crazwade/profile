@@ -1,6 +1,6 @@
 <template>
   <div>
-    <el-row>
+    <el-row class="mb-2">
       <el-col :span="16">
         <div class=" text-5xl mt-2 font-semibold">{{ $t('info.name') }}</div>
         <div class=" text-sm my-4">{{ $t('info.degree') }}</div>
@@ -33,14 +33,13 @@
     <el-row>
       <el-col :span="24">
         <div>
-          <el-tag
+          <span
             v-for="(item, index) in tm('skills')"
             :key="index"
-            type="info"
-            class=" ml-2 my-2 text-stone-950"
+            class="text-stone-600 bg-gray-100 text-sm rounded m-2 p-2 inline-block"
           >
             {{ item }}
-          </el-tag>
+          </span>
         </div>
       </el-col>
     </el-row>
