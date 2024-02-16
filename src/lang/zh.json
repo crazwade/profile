@@ -10,7 +10,9 @@
     "Tailwind CSS",
     "Pinia",
     "Git",
-    "ESLint"
+    "ESLint",
+    "AstroJs",
+    "Figma"
   ],
   "sideproject" : "作品集 ( 展示在Github )",
   "social": [
@@ -48,12 +50,14 @@
       "skill": [
         "TypeScript(Vue)",
         "JavaScript(ES6)",
+        "AstroJs",
         "RESTful API",
         "Socket.io",
         "Element-Plus",
         "Tailwind CSS",
         "ESLint",
-        "Pinia"
+        "Pinia",
+        "Figma"
       ],
       "content": [
         "跨部門團隊合作，成員包括後端工程師、美術設計師和專案經理",
