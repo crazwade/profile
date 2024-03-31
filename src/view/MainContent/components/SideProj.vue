@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class=" text-2xl font-semibold my-3">
+    <div class=" text-2xl font-semibold my-3 text-black">
       {{ $t('sideproject') }}
     </div>
     <div v-for="(item, index) in sideProjItem" :key="index" class=" mt-3">

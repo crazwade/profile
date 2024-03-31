@@ -2,7 +2,7 @@
   <div class=" mt-2">
     <div v-for="(item, index) in workExpItem" :key="index" class=" my-3">
       <div class="inline">
-        <span class="font-semibold text-lg">{{ item.title }}</span>
+        <span class="text-black font-semibold text-lg">{{ item.title }}</span>
         <span class="text-gray-600">, </span>
         <span class=" text-blue-500 text-base hover:underline hover:cursor-pointer" @click="transferURL(item.link)">{{ item.company }}</span>
         <span class="text-gray-600">, </span>
