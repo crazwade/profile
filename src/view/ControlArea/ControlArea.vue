@@ -18,7 +18,7 @@
   <div class="dialogLabel">
     <span>{{ $t('setting.lang') }}:</span>
     <el-switch
-      v-model="localLangSelect"
+      v-model="currentValue"
       size="large"
       active-text="English"
       inactive-text="中文"
@@ -32,26 +32,27 @@
 </template>
 
 <script setup lang='ts'>
-import { ref, watch, onMounted } from 'vue';
+import { ref, computed } from 'vue';
 
-const localLangSelect = ref(true);
 const dialogVisible = ref(false);
 
 const props = defineProps<{
-  langValue: boolean;
+  modelValue: boolean;
+  onChange?: null | ((e: string | number) => void);
 }>();
 
-onMounted(() => {
-  localLangSelect.value = props.langValue;
-});
-
 const emits = defineEmits<{
-  (e: 'langChange', value: boolean):void;
+  (e: 'update:modelValue', value: boolean): void;
   (e: 'exportPDF'):void;
 }>();
 
-watch(localLangSelect, () => {
-  emits('langChange', localLangSelect.value);
+const currentValue = computed({
+  get () {
+    return props.modelValue;
+  },
+  set (value) {
+    emits('update:modelValue', value);
+  },
 });
 
 const handleClose = () => {

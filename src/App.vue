@@ -7,9 +7,8 @@
         id="pdfContent"
       />
       <ControlArea
-        @langChange="langChange"
+        v-model="langValue"
         @exportPDF="exportPDF"
-        :langValue="langValue"
       />
     </div>
     <div class="version"> {{ version }}</div>
@@ -17,7 +16,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, watch } from 'vue';
+import { ref, watch, onMounted } from 'vue';
 import { useI18n } from 'vue-i18n';
 import MainContent from './view/MainContent/MainContent.vue';
 import ControlArea from './view/ControlArea/ControlArea.vue';
@@ -29,10 +28,6 @@ const { locale } = useI18n();
 const langValue = ref(false);
 const MainContentRef = ref<InstanceType<typeof MainContent>>();
 
-const langChange = (newLang: boolean) => {
-  langValue.value = newLang;
-};
-
 const exportPDF = () => {
   const filename = locale.value === 'en' ? 'JackyWu_Resume.pdf' : '吳國揚_履歷.pdf';
 
@@ -40,14 +35,31 @@ const exportPDF = () => {
   html2pdf().from(element).save(filename);
 };
 
-// 監聽 langValue 變化並設置 locale
-const computedLocale = computed(() => {
-  return langValue.value ? 'en' : 'zh';
+// 監聽 langValue 變化並設置 語言切換以及網址 querystring
+watch(langValue, (newLocale) => {
+  locale.value = newLocale ? 'en' : 'zh';
+
+  if (newLocale) {
+    const newUrl = `${window.location.pathname}?lang=en`;
+    window.history.pushState({}, '', newUrl);
+    return;
+  }
+
+  const newUrl = `${window.location.pathname}?lang=zh`;
+  window.history.pushState({}, '', newUrl);
 });
 
-// 監聽 computedLocale 變化並設置 locale
-watch(computedLocale, (newLocale) => {
-  locale.value = newLocale;
+onMounted(() => {
+  const queryString = window.location.search;
+  const urlParams = new URLSearchParams(queryString);
+  const lang = urlParams.get('lang') || 'zh';
+
+  if (lang === 'en') {
+    langValue.value = true;
+    return;
+  }
+
+  langValue.value = false;
 });
 
 </script>
