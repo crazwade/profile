@@ -134,12 +134,21 @@
     },
     {
       "title": "Classroom Student Record System",
-      "detail": " Assist in organizing student information. Key features include student enrollment, drag-and-drop student repositioning, course selection, progress updates, and automated learning record creation.",
+      "detail": "Assist in organizing student information. Key features include student enrollment, drag-and-drop student repositioning, course selection, progress updates, and automated learning record creation.",
       "content": [
         "Built with Vue 3, Vite, Pinia, Element Plus, and Tailwind CSS",
         "This project is specially designed for project teaching teachers, and the estimated number of users is about 20"
       ],
       "link": "https://crazwade.github.io/CSR/dist/"
+    },
+    {
+      "title": "LogViewer",
+      "detail": "A log viewer system designed specifically for backend engineers in the company. It allows viewing and analyzing a large volume of log records.",
+      "content": [
+        "Built with Vue 3, Vite, Pinia, Element Plus, and Tailwind CSS",
+        "The system utilizes Element Plus’s Virtualized Table to display log records, ensuring smooth performance even with large datasets."
+      ],
+      "link": "https://crazwade.github.io/LogViewer/"
     }
   ]
 }
