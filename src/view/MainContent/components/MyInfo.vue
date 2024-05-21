@@ -1,12 +1,12 @@
 <template>
   <div class="text-black">
-    <el-row class="mb-2">
-      <el-col :span="16">
+    <div class="mb-2 flex flex-wrap justify-between w-full">
+      <div class="flex flex-col justify-start">
         <div class=" text-5xl mt-2 font-semibold text-black">{{ $t('info.name') }}</div>
         <div class=" text-sm my-4">{{ $t('info.degree') }}</div>
         <div class=" border-t-2 border-gray-400 w-[85%]"></div>
-      </el-col>
-      <el-col :span="8">
+      </div>
+      <div class="flex flex-wrap">
         <div
           v-for="(item, index) in socialItem"
           :key="index"
@@ -28,8 +28,8 @@
             <span>{{ item.title }}</span>
           </a>
         </div>
-      </el-col>
-    </el-row>
+      </div>
+    </div>
     <el-row>
       <el-col :span="24">
         <div>
