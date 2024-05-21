@@ -10,12 +10,12 @@
         <div
           v-for="(item, index) in socialItem"
           :key="index"
-          class=" my-2 icon-link flex items-center hover:text-blue-700 hover:underline hover:font-bold"
+          class="my-2 mr-2 icon-link flex items-center hover:text-blue-700 hover:underline hover:font-bold"
         >
           <a
             :href="item.link"
             target="_blank"
-            class=" mx-1"
+            class="mx-1 flex justify-center items-center"
           >
             <i v-if="item.name === 'email'" class="far fa-envelope text-2xl"></i>
             <i v-else :class="`fab fa-${item.name} text-2xl`"></i>
