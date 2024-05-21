@@ -1,9 +1,9 @@
 <template>
-  <div class="flex justify-center items-center h-screen bg-neutral-600">
-    <div class=" relative max-w-[918px] h-full bg-white overflow-y-scroll text-black">
+  <div class="flex justify-center items-center h-full bg-neutral-600">
+    <div class="relative max-w-[918px] h-full bg-white text-black">
       <MainContent
         ref="MainContentRef"
-        class="p-8"
+        class="p-2 h-full w-full overflow-hidden"
         id="pdfContent"
       />
       <ControlArea

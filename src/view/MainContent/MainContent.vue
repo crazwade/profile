@@ -1,8 +1,10 @@
 <template>
-  <div id="main" class=" flex flex-col w-full h-full">
-    <MyInfo />
-    <WorkExp />
-    <SideProj />
+  <div>
+    <div id="main" class="flex flex-col w-full h-full overflow-auto">
+      <MyInfo />
+      <WorkExp />
+      <SideProj />
+    </div>
   </div>
 </template>
 
