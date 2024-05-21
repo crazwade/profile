@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <div id="main" class="flex flex-col w-full h-full overflow-auto">
+  <div class="p-2 h-full w-full overflow-auto">
+    <div id="main" class="flex flex-col  ">
       <MyInfo />
       <WorkExp />
       <SideProj />
