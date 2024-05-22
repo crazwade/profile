@@ -7,12 +7,12 @@
       <div class="inline">
         <span
           v-if="item.link"
-          class="font-semibold text-lg text-blue-500 cursor-pointer hover:text-blue-500 hover:underline"
+          class="font-semibold text-lg text-blue-500 underline cursor-pointer hover:text-blue-700 "
           @click="transferURL(item.link)"
         >
           {{ item.title }}
         </span>
-        <span v-else class="font-semibold text-lg text-blue-500">{{ item.title }}</span>
+        <span v-else class="font-semibold text-lg">{{ item.title }}</span>
         <span class="text-gray-600"> - </span>
         <span class="text-gray-600 text-sm">{{ item.detail }}</span>
       </div>

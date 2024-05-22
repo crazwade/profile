@@ -4,7 +4,7 @@
       <div class="inline">
         <span class="text-black font-semibold text-lg">{{ item.title }}</span>
         <span class="text-gray-600">, </span>
-        <span class=" text-blue-500 text-base hover:underline hover:cursor-pointer" @click="transferURL(item.link)">{{ item.company }}</span>
+        <span class="text-blue-500 text-base underline hover:cursor-pointer hover:text-blue-700" @click="transferURL(item.link)">{{ item.company }}</span>
         <span class="text-gray-600">, </span>
         <span class="font-semibold text-gray-600 text-lg">{{ item.local }}</span>
         <span class="text-gray-600">, </span>

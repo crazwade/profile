@@ -10,7 +10,7 @@
         <div
           v-for="(item, index) in socialItem"
           :key="index"
-          class="my-2 mr-2 icon-link flex items-center hover:text-blue-700 hover:underline hover:font-bold"
+          class="my-2 mr-2 icon-link flex items-center hover:text-blue-700 hover:font-bold"
         >
           <a
             :href="item.link"
@@ -23,7 +23,7 @@
           <a
             :href="item.name === 'email' ? `mailto:${item.link}` : item.link"
             target="_blank"
-            class=" mx-1"
+            class="mx-1 underline text-blue-500"
           >
             <span>{{ item.title }}</span>
           </a>
