@@ -1,7 +1,8 @@
 <template>
-  <div class="p-2 h-full w-full overflow-auto">
-    <div id="main" class="flex flex-col  ">
+  <div class="p-6 h-full w-full overflow-auto">
+    <div id="main" class="flex flex-col">
       <MyInfo />
+      <SkillTool />
       <WorkExp />
       <SideProj />
     </div>
@@ -12,6 +13,7 @@
 import MyInfo from './components/MyInfo.vue';
 import WorkExp from './components/WorkExp.vue';
 import SideProj from './components/SideProj.vue';
+import SkillTool from './components/SkillTools.vue';
 
 </script>
 

@@ -1,9 +1,9 @@
 <template>
   <el-row v-for="(list, listIndex) in data" :key="listIndex">
     <el-col :span="24">
-      <div class=" flex items-start text-black">
-        <div class=" ml-10 font-extrabold text-3xl">．</div>
-        <div class=" flex-grow flex-shrink-1 text-sm leading-6 my-2">{{ list }}</div>
+      <div class=" flex items-start text-[#21325e]">
+        <div class="ml-[0.8rem] font-extrabold text-3xl">．</div>
+        <div class="flex-grow flex-shrink-1 text-sm leading-6 my-[0.2rem]">{{ list }}</div>
       </div>
     </el-col>
   </el-row>
