@@ -1,33 +1,28 @@
 <template>
-  <div class=" mt-2">
-    <div v-for="(item, index) in workExpItem" :key="index" class=" my-3">
+  <ContentWrapper :label="$t('EXPERIENCE')">
+    <div v-for="(item, index) in workExpItem" :key="index" class="mt-3 pl-4">
       <div class="inline">
-        <span class="text-black font-semibold text-lg">{{ item.title }}</span>
+        <span class="text-[#3d63be] font-bold text-lg">{{ item.title }}</span>
         <span class="text-gray-600">, </span>
-        <span class=" text-blue-500 text-base hover:underline hover:cursor-pointer" @click="transferURL(item.link)">{{ item.company }}</span>
+        <span class="text-[#7ab7ff] font-semibold text-base underline hover:cursor-pointer hover:text-blue-700" @click="transferURL(item.link)">{{ item.company }}</span>
         <span class="text-gray-600">, </span>
-        <span class="font-semibold text-gray-600 text-lg">{{ item.local }}</span>
+        <span class="text-gray-600 text-sm">{{ item.local }}</span>
         <span class="text-gray-600">, </span>
         <span class="text-gray-600 text-sm">{{ item.time }}</span>
       </div>
-      <div class=" my-1">
-        <div
-          v-for="(skill, skillIndex) in item.skill"
-          :key="skillIndex"
-          class="inline text-gray-400 text-base italic"
-        >
-          {{ skill }}
-          <span v-if="skillIndex !== item.skill.length - 1" class=" mx-1"> / </span>
-        </div>
+      <div class="my-[0.2rem]">
+        <SkillList :skillList="item.skill" />
       </div>
       <ItemList :data="item.content" />
     </div>
-  </div>
+  </ContentWrapper>
 </template>
 
 <script setup lang='ts'>
 import { watch, ref } from 'vue';
 import { useI18n } from 'vue-i18n';
+import SkillList from '@/components/SkillList.vue';
+import ContentWrapper from '@/components/ContentWrapper.vue';
 import ItemList from '../../../components/ItemList.vue';
 import { transferURL } from '../../../common/transferURL';
 

@@ -1,0 +1,35 @@
+name: GitHub Actions Deploy Demo
+run-name: ${{ github.actor }} GitHub Actions 自動部署 🚀
+on:
+  push:
+    tags:
+      - "ver*" # 只有當 tag 名稱以 'ver' 開頭時觸發
+jobs:
+  autoDeploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v3
+      - name: 初始化專案
+        run: |
+          npm install
+      - name: 打包專案
+        run: |
+          npx nuxt generate
+      - name: 存放打包後的專案並準備上傳
+        uses: actions/upload-artifact@v2
+        with:
+          name: my-artifact
+          path: dist
+          if-no-files-found: error # 'warn' or 'ignore' are also available, defaults to `warn`
+      - name: 印出目前工作環境的資料夾結構
+        run: |
+          ls ${{ github.workspace }}
+      - name: 部署生成的檔案到 gh_page 分支
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: dist
+          PUBLISH_BRANCH: gh-pages
+          full_commit_message: ${{ github.event.head_commit.message }}
+      - run: echo "自動打包部署結果 ${{ job.status }}"
