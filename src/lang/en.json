@@ -15,7 +15,46 @@
     "AstroJs",
     "Figma"
   ],
-  "sideproject": "SIDE PROJECTS ( Showcased on GitHub )",
+  "skill": "SKILLS",
+  "EXPERIENCE": "EXPERIENCE",
+  "PROJECT": "SIDE PROJECTS ( Showcased on GitHub )",
+  "skillTools": [
+    {
+      "label": "Languages & Frameworks",
+      "skill": [
+        "Vue.js",
+        "Pinia",
+        "TypeScript(Vue3)",
+        "JavaScript(ES6)"
+      ]
+    },
+    {
+      "label": "Back-End Collaboration",
+      "skill": [
+        "RESTful API",
+        "Swagger",
+        "Socket.io",
+        "Server-Sent Events"
+      ]
+    },
+    {
+      "label": "UI/UX Design",
+      "skill": [
+        "Element-Plus",
+        "Tailwind CSS",
+        "Figma"
+      ]
+    },
+    {
+      "label": "Development Tools",
+      "skill": [
+        "ESLint",
+        "Axios",
+        "Git",
+        "Jira"
+      ]
+    }
+  ],
   "social": [
     {
       "name": "linkedin",
@@ -43,9 +82,9 @@
     "title": "Front-End Developer",
     "degree": "B.S., Information Management, University of Kaohsiung, Grad. 2019"
   },
-  "aboutme-p1": "目前在坂和科技公司（SAKAWA Technology）擔任前端工程師，累積超過2年半的前端工作經驗。",
-  "aboutme-p2": "前端框架方面，主要使用 Vue.js 框架搭配 TypeScript / Tailwind CSS，熟悉 RESTful API 串接、第三方 UI 框架(Element-Plus / Vuetify) 以及狀態管理庫(Pinia / Vuex)。",
-  "aboutme-p3": "工作經驗包括透過 Figma 與設計師合作，共同討論 UI / UX 並轉換成前端頁面，同時開發了前端組件化和模組應用。也有經驗處理跨瀏覽器網頁瀏覽、RWD 以及效能重繪問題，並熟悉使用 Git 開發進行部署和版本管理。並在每個專案都使用 Eslint 以確保 codeing style 降低閱讀成本。",
+  "aboutme-p1": "E目前在坂和科技公司（SAKAWA Technology）擔任前端工程師，累積超過2年半的前端工作經驗。",
+  "aboutme-p2": "E前端框架方面，主要使用 Vue.js 框架搭配 TypeScript / Tailwind CSS，熟悉 RESTful API 串接、第三方 UI 框架(Element-Plus / Vuetify) 以及狀態管理庫(Pinia / Vuex)。",
+  "aboutme-p3": "E工作經驗包括透過 Figma 與設計師合作，共同討論 UI / UX 並轉換成前端頁面，同時開發了前端組件化和模組應用。也有經驗處理跨瀏覽器網頁瀏覽、RWD 以及效能重繪問題，並熟悉使用 Git 開發進行部署和版本管理。並在每個專案都使用 Eslint 以確保 codeing style 降低閱讀成本。",
   "experience": [
     {
       "company": "Sakawa Technology Co., LTD.",
@@ -56,7 +95,6 @@
         "Vue.js",
         "TypeScript(Vue3)",
         "JavaScript(ES6)",
-        "AstroJs",
         "RESTful API",
         "Socket.io",
         "Element-Plus",
@@ -80,10 +118,8 @@
       "local": "Kaohsiung",
       "skill": [
         "HTML",
-        "Python",
         "JavaScript(ES5)",
-        "TypeScript(Vue)",
-        "ESLint"
+        "TypeScript(Vue)"
       ],
       "content": [
         "Guided students below high school level in learning foundational programming languages and provided assistance in completing their projects",
@@ -110,10 +146,29 @@
   ],
   "project": [
     {
+      "title": "LogViewer",
+      "detail": "A log viewer system designed specifically for backend engineers in the company. It allows viewing and analyzing a large volume of log records.",
+      "skill": [
+        "Vue 3",
+        "Vite",
+        "Element Plus",
+        "Tailwind CSS"
+      ],
+      "content": [
+        "The system utilizes Element Plus’s Virtualized Table to display log records, ensuring smooth performance even with large datasets."
+      ],
+      "link": "https://crazwade.github.io/LogViewer/"
+    },
+    {
       "title": "ShareHub",
       "detail": "ShareHub is an English article and image sharing platform that enables users to effortlessly share and explore interesting content.",
+      "skill": [
+        "Vue 3",
+        "Vite",
+        "Element Plus",
+        "Tailwind CSS"
+      ],
       "content": [
-        "Built with Vue 3, Vite, Element Plus, and Tailwind CSS",
         "Designed for internal use within an English-speaking community in the company, with an estimated user base of approximately 30-50 users"
       ],
       "link": "https://crazwade.github.io/english-club/dist"
@@ -121,8 +176,12 @@
     {
       "title": "NUK International Student Application System",
       "detail": "Designed for international students and administrative staff. The system facilitates online applications and provides comprehensive front-end and back-end functionalities to streamline the application process.",
+      "skill": [
+        "PHP",
+        "JavaScript(ES5)",
+        "MySQL"
+      ],
       "content": [
-        "Built with PHP, Native JavaScript(ES5) and MySQL",
         "Front-end: Empowering international students to apply to NUK by enabling document uploads, data entry, material downloads, and application progress tracking",
         "Back-end: Facilitating administrative staff at the international affairs office with tools for reviewing student submissions, conducting evaluations, and updating documents from the front-end"
       ]
@@ -130,8 +189,17 @@
     {
       "title": "Backstage Management System",
       "detail": "Designed for administering operations involving data table display, manipulation, and export. Utilizes the Element Plus UI library to provide a rich user interface.",
+      "skill": [
+        "Vue 3",
+        "Vite",
+        "Element Plus",
+        "Tailwind CSS",
+        "Pinia",
+        "Axios",
+        "RESTful API",
+        "Chart.js"
+      ],
       "content": [
-        "Built with Vue 3, Vite, Element Plus, Pinia, Axios, and RESTful API",
         "This project showcases my ability to replicate backend systems based on work-related requirement"
       ],
       "link": "https://crazwade.github.io/BMS/dist"
@@ -139,20 +207,16 @@
     {
       "title": "Classroom Student Record System",
       "detail": "Assist in organizing student information. Key features include student enrollment, drag-and-drop student repositioning, course selection, progress updates, and automated learning record creation.",
+      "skill": [
+        "Vue 3",
+        "Vite",
+        "Element Plus",
+        "Tailwind CSS"
+      ],
       "content": [
-        "Built with Vue 3, Vite, Pinia, Element Plus, and Tailwind CSS",
         "This project is specially designed for project teaching teachers, and the estimated number of users is about 20"
       ],
       "link": "https://crazwade.github.io/CSR/dist/"
-    },
-    {
-      "title": "LogViewer",
-      "detail": "A log viewer system designed specifically for backend engineers in the company. It allows viewing and analyzing a large volume of log records.",
-      "content": [
-        "Built with Vue 3, Vite, Pinia, Element Plus, and Tailwind CSS",
-        "The system utilizes Element Plus’s Virtualized Table to display log records, ensuring smooth performance even with large datasets."
-      ],
-      "link": "https://crazwade.github.io/LogViewer/"
     }
   ]
 }

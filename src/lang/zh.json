@@ -15,7 +15,46 @@
     "AstroJs",
     "Figma"
   ],
-  "sideproject": "作品集 ( 展示在Github )",
+  "skill": "技能",
+  "EXPERIENCE": "工作經驗",
+  "PROJECT": "作品集 ( 展示在Github )",
+  "skillTools": [
+    {
+      "label": "語言和框架",
+      "skill": [
+        "Vue.js",
+        "Pinia",
+        "TypeScript(Vue3)",
+        "JavaScript(ES6)"
+      ]
+    },
+    {
+      "label": "後端協作",
+      "skill": [
+        "RESTful API",
+        "Swagger",
+        "Socket.io",
+        "Server-Sent Events"
+      ]
+    },
+    {
+      "label": "UI/UX 設計",
+      "skill": [
+        "Element-Plus",
+        "Tailwind CSS",
+        "Figma"
+      ]
+    },
+    {
+      "label": "輔助工具",
+      "skill": [
+        "ESLint",
+        "Axios",
+        "Git",
+        "Jira"
+      ]
+    }
+  ],
   "social": [
     {
       "name": "linkedin",
@@ -56,7 +95,6 @@
         "Vue.js",
         "TypeScript(Vue3)",
         "JavaScript(ES6)",
-        "AstroJs",
         "RESTful API",
         "Socket.io",
         "Element-Plus",
@@ -80,10 +118,8 @@
       "local": "高雄",
       "skill": [
         "HTML",
-        "Python",
         "JavaScript(ES5)",
-        "TypeScript(Vue)",
-        "ESLint"
+        "TypeScript(Vue)"
       ],
       "content": [
         "教導高中以下學生學習基礎程式語言，並協助完成他們的專案",
@@ -110,10 +146,29 @@
   ],
   "project": [
     {
+      "title": "Log 日誌查看系統",
+      "detail": "專為公司的後端工程師設計的Log日誌查看系統，能夠查看和分析大量的日誌紀錄",
+      "skill": [
+        "Vue 3",
+        "Vite",
+        "Element Plus",
+        "Tailwind CSS"
+      ],
+      "content": [
+        "該系統基於 Vue.js 框架開發，並使用了 Element Plus 的 Virtualized Table 來展示日誌紀錄，確保即使是大量資料的情況下，頁面仍能保持流暢。"
+      ],
+      "link": "https://crazwade.github.io/LogViewer/"
+    },
+    {
       "title": "ShareHub",
       "detail": "英文文章和圖片的分享平台，讓使用者可以輕鬆分享和探索有趣的內容。該平台提供三個主要畫面",
+      "skill": [
+        "Vue 3",
+        "Vite",
+        "Element Plus",
+        "Tailwind CSS"
+      ],
       "content": [
-        "Vue 3, Vite, Element Plus, and Tailwind CSS",
         "此項目專為公司內的英語社團所設計，預計使用者數量約為30至50人"
       ],
       "link": "https://crazwade.github.io/english-club/dist"
@@ -121,8 +176,12 @@
     {
       "title": "國立高雄大學線上申請系統",
       "detail": "此系統專為國際學生和行政人員所設計，方便線上申請並提供全面的前端和後端功能，以簡化申請流程",
+      "skill": [
+        "PHP",
+        "JavaScript(ES5)",
+        "MySQL"
+      ],
       "content": [
-        "Built with PHP, Native JavaScript(ES5) and MySQL",
         "前台：讓國際學生能夠透過上傳文件、輸入資料、下載資料和追蹤申請進度等功能",
         "後台：國際事務辦公室的行政人員使用，用以審核學生提交的申請、進行評估、更新相關下載文件功能"
       ]
@@ -130,8 +189,17 @@
     {
       "title": "後台管理系統",
       "detail": "資料使用表格展示、功能操作和資料匯出，並使用 Element Plus UI 庫提供豐富的使用者界面",
+      "skill": [
+        "Vue 3",
+        "Vite",
+        "Element Plus",
+        "Tailwind CSS",
+        "Pinia",
+        "Axios",
+        "RESTful API",
+        "Chart.js"
+      ],
       "content": [
-        "Vue 3, Vite, Element Plus, Pinia, Axios and RESTful API",
         "這是一個後臺管理系統的示範專案，示範我所製作過的後台系統"
       ],
       "link": "https://crazwade.github.io/BMS/dist"
@@ -139,20 +207,16 @@
     {
       "title": "學生紀錄管理系統",
       "detail": "協助管理學生紀錄的應用程式，主要功能包括新增學生、使用 drag and draw 操作學生位置、選擇課程內容、填寫學習狀態和自動生成學習紀錄",
+      "skill": [
+        "Vue 3",
+        "Vite",
+        "Element Plus",
+        "Tailwind CSS"
+      ],
       "content": [
-        "Vue 3, Vite, Element Plus and Tailwind CSS",
         "此項目專為程式教學老師所設計，預計使用者數量約為20人 (高雄地區的老師們)"
       ],
       "link": "https://crazwade.github.io/CSR/dist/"
-    },
-    {
-      "title": "Log 日誌查看系統",
-      "detail": "專為公司的後端工程師設計的Log日誌查看系統，能夠查看和分析大量的日誌紀錄",
-      "content": [
-        "Vue 3, Vite, Element Plus and Tailwind CSS",
-        "該系統基於 Vue.js 框架開發，並使用了 Element Plus 的 Virtualized Table 來展示日誌紀錄，確保即使是大量資料的情況下，頁面仍能保持流暢。"
-      ],
-      "link": "https://crazwade.github.io/LogViewer/"
     }
   ]
 }
