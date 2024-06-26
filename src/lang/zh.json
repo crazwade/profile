@@ -15,7 +15,7 @@
     "AstroJs",
     "Figma"
   ],
-  "sideproject" : "作品集 ( 展示在Github )",
+  "sideproject": "作品集 ( 展示在Github )",
   "social": [
     {
       "name": "linkedin",
@@ -38,10 +38,13 @@
     "lang": "語言設定",
     "pdf": "生成 PDF"
   },
-  "info" : {
+  "info": {
     "name": "吳國揚",
     "degree": "資訊管理學士, 國立高雄大學, 2019年畢業"
   },
+  "aboutme-p1": "目前在坂和科技公司（SAKAWA Technology）擔任前端工程師，累積超過2年半的前端工作經驗。",
+  "aboutme-p2": "前端框架方面，主要使用 Vue.js 框架搭配 TypeScript / Tailwind CSS，熟悉 RESTful API 串接、第三方 UI 框架(Element-Plus / Vuetify) 以及狀態管理庫(Pinia / Vuex)。",
+  "aboutme-p3": "工作經驗包括透過 Figma 與設計師合作，共同討論 UI / UX 並轉換成前端頁面，同時開發了前端組件化和模組應用。也有經驗處理跨瀏覽器網頁瀏覽、RWD 以及效能重繪問題，並熟悉使用 Git 開發進行部署和版本管理。並在每個專案都使用 Eslint 以確保 codeing style 降低閱讀成本。",
   "experience": [
     {
       "company": "坂和企業有限公司",
