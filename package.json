@@ -1,6 +1,6 @@
 {
   "name": "profile",
-  "version": "v1.1.1",
+  "version": "v1.1.2",
   "private": true,
   "scripts": {
     "dev": "vite --host",
