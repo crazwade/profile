@@ -97,6 +97,8 @@
         "JavaScript(ES6)",
         "RESTful API",
         "Socket.io",
+        "Axios",
+        "Swagger",
         "Element-Plus",
         "Tailwind CSS",
         "ESLint",
@@ -104,10 +106,11 @@
         "Figma"
       ],
       "content": [
-        "Collaborated with cross-functional teams, including backend engineers, graphic designers, and project managers",
-        "Executed production based on specifications and collaborated with backend engineers to discuss API structures, meeting interface integration requirements",
-        "In large-scale projects, focusing on middleware tasks. Responsible for creating API interfaces, converting data types, and handling functions for API requests and payloads between frontend and backend",
-        "Proficient in writing logic layer code based on frontend UX and integrating UI components"
+        "Proficient in Vue.js, TypeScript, and Tailwind CSS for web application development",
+        "Collaborated with cross-functional teams and created more than 10 projects（e.q. middleware management system, front-end information website, internal back-end log viewing system...）",
+        "Reduced development deployment time by 30% and minimized manual deployment errors through the use of GitLab CI/CD automation",
+        "Enforced consistent coding style using ESLint, resulting in improved code readability and maintainability",
+        "In large-scale projects, focusing on middleware tasks. Responsible for creating API interfaces, converting data types, and handling functions for API requests and payloads between frontend and backend"
       ],
       "link": "https://www.sakawa.com.tw/"
     },
