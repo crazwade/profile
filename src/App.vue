@@ -20,8 +20,7 @@ import { useI18n } from 'vue-i18n';
 import MainContent from './view/MainContent/MainContent.vue';
 import ControlArea from './view/ControlArea/ControlArea.vue';
 import html2pdf from 'html2pdf.js';
-
-const version = process.env.APP_VERSION;
+import { version } from '../package.json';
 
 const { locale } = useI18n();
 const langValue = ref(false);
