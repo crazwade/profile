@@ -23,7 +23,6 @@
           size="large"
           active-text="English"
           inactive-text="中文"
-          @click="console.log(123)"
         />
       </div>
     </div>
