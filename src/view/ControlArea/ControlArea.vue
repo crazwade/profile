@@ -15,19 +15,28 @@
     :title="$t('setting.title')"
     :before-close="handleClose"
   >
-  <div class="dialogLabel">
-    <span>{{ $t('setting.lang') }}:</span>
-    <el-switch
-      v-model="currentValue"
-      size="large"
-      active-text="English"
-      inactive-text="中文"
-    />
-  </div>
-  <div class="dialogLabel">
-    <span>{{ $t('setting.pdf') }}:</span>
-    <el-button @click="exportPDF">Export</el-button>
-  </div>
+    <div class="dialogLabel">
+      <span>{{ $t('setting.lang') }}:</span>
+      <div class="w-fit">
+        <el-switch
+          v-model="currentValue"
+          size="large"
+          active-text="English"
+          inactive-text="中文"
+          @click="console.log(123)"
+        />
+      </div>
+    </div>
+    <div class="dialogLabel">
+      <span>{{ $t('setting.pdf') }}:</span>
+      <el-button @click="exportPDF">Export</el-button>
+    </div>
+  </el-dialog>
+  <el-dialog
+    v-model='dialogAlertVisible'
+    :title="$t('setting.title')"
+  >
+    {{ $t('updating') }}
   </el-dialog>
 </template>
 
@@ -35,6 +44,7 @@
 import { ref, computed } from 'vue';
 
 const dialogVisible = ref(false);
+const dialogAlertVisible = ref(false);
 
 const props = defineProps<{
   modelValue: boolean;
@@ -60,7 +70,8 @@ const handleClose = () => {
 };
 
 const exportPDF = () => {
-  emits('exportPDF');
+  dialogAlertVisible.value = true;
+  // emits('exportPDF');
 };
 </script>
 
