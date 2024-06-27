@@ -97,6 +97,8 @@
         "JavaScript(ES6)",
         "RESTful API",
         "Socket.io",
+        "Axios",
+        "Swagger",
         "Element-Plus",
         "Tailwind CSS",
         "ESLint",
@@ -104,10 +106,11 @@
         "Figma"
       ],
       "content": [
-        "跨部門團隊合作，成員包括後端工程師、美術設計師和專案經理",
-        "依照規格書執行製作並與後端工程師討論 API 結構，以滿足對接頁面的需求",
-        "在大型專案中，專注於中介層製作。負責建立 API 接口、轉換資料類型，並處理畫面端和後端 API 之間的請求和資料傳輸功能",
-        "具有依前端 UX 撰寫邏輯層程式和整併畫面元件的能力"
+        "前端團隊主要使用 Vue.js 框架搭配 TypeScript / Tailwind CSS 來開發",
+        "具有跨部門團隊合作經驗，與後端工程師、美術設計師和專案經理團隊合作超過10個專案（e.q. 中台管理系統、前台資訊網站、內部後端log查看系統...）",
+        "使用 GitLab CI/CD 開發自動化部屬減少 30% 開發部署時間以及降低手動部署的失誤率",
+        "使用 ESLint 確保 codeing style 降低閱讀成本",
+        "在大型專案中，專注於中介層製作。負責建立 API 接口、轉換資料類型，並處理畫面端和後端 API 之間的請求和資料傳輸功能"
       ],
       "link": "https://www.sakawa.com.tw/"
     },
@@ -218,5 +221,6 @@
       ],
       "link": "https://crazwade.github.io/CSR/dist/"
     }
-  ]
+  ],
+  "updating": "功能調整更新中"
 }

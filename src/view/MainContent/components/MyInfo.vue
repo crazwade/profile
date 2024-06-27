@@ -8,7 +8,7 @@
             <div class="text-2xl font-semibold text-[#8bb0e4] pl-1">{{ $t('info.title') }}</div>
             <div class="text-base pl-1">{{ $t('info.degree') }}</div>
           </div>
-          <div class="flex flex-row 768px:flex-col">
+          <div class="flex flex-wrap flex-row 768px:flex-col">
             <SocialLink :socialItems="socialItems" />
           </div>
         </div>
