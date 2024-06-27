@@ -15,7 +15,7 @@ jobs:
           npm install
       - name: 打包專案
         run: |
-          npx nuxt generate
+          npm run build
       - name: 存放打包後的專案並準備上傳
         uses: actions/upload-artifact@v2
         with:
