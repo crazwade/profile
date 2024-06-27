@@ -163,6 +163,25 @@
       "link": "https://crazwade.github.io/LogViewer/"
     },
     {
+      "title": "Backstage Management System",
+      "detail": "Designed for administering operations involving data table display, manipulation, and export. Utilizes the Element Plus UI library to provide a rich user interface.",
+      "skill": [
+        "Vue 3",
+        "Vite",
+        "Element Plus",
+        "Tailwind CSS",
+        "Pinia",
+        "Axios",
+        "RESTful API",
+        "Chart.js"
+      ],
+      "content": [
+        "Developed a backend management system demo project featuring essential functionalities like charts, login, permissions, and data querying",
+        "Leveraged Chart.js to visualize data, enhancing user experience and comprehension"
+      ],
+      "link": "https://crazwade.github.io/BMS/dist"
+    },
+    {
       "title": "ShareHub",
       "detail": "ShareHub is an English article and image sharing platform that enables users to effortlessly share and explore interesting content.",
       "skill": [
@@ -188,24 +207,6 @@
         "Front-end: Empowering international students to apply to NUK by enabling document uploads, data entry, material downloads, and application progress tracking",
         "Back-end: Facilitating administrative staff at the international affairs office with tools for reviewing student submissions, conducting evaluations, and updating documents from the front-end"
       ]
-    },
-    {
-      "title": "Backstage Management System",
-      "detail": "Designed for administering operations involving data table display, manipulation, and export. Utilizes the Element Plus UI library to provide a rich user interface.",
-      "skill": [
-        "Vue 3",
-        "Vite",
-        "Element Plus",
-        "Tailwind CSS",
-        "Pinia",
-        "Axios",
-        "RESTful API",
-        "Chart.js"
-      ],
-      "content": [
-        "This project showcases my ability to replicate backend systems based on work-related requirement"
-      ],
-      "link": "https://crazwade.github.io/BMS/dist"
     },
     {
       "title": "Classroom Student Record System",

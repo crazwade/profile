@@ -163,6 +163,25 @@
       "link": "https://crazwade.github.io/LogViewer/"
     },
     {
+      "title": "後台管理系統",
+      "detail": "資料使用表格展示、功能操作和資料匯出，並使用 Element Plus UI 庫提供豐富的使用者界面",
+      "skill": [
+        "Vue 3",
+        "Vite",
+        "Element Plus",
+        "Tailwind CSS",
+        "Pinia",
+        "Axios",
+        "RESTful API",
+        "Chart.js"
+      ],
+      "content": [
+        "後臺管理系統的示範專案，具有基本功能包含圖表, 登入功能, 權限功能, 查詢功能等等...",
+        "使用 Chart.js 圖表來直覺化數據讓使用者可以更直觀的使用"
+      ],
+      "link": "https://crazwade.github.io/BMS/dist"
+    },
+    {
       "title": "ShareHub",
       "detail": "英文文章和圖片的分享平台，讓使用者可以輕鬆分享和探索有趣的內容。該平台提供三個主要畫面",
       "skill": [
@@ -188,24 +207,6 @@
         "前台：讓國際學生能夠透過上傳文件、輸入資料、下載資料和追蹤申請進度等功能",
         "後台：國際事務辦公室的行政人員使用，用以審核學生提交的申請、進行評估、更新相關下載文件功能"
       ]
-    },
-    {
-      "title": "後台管理系統",
-      "detail": "資料使用表格展示、功能操作和資料匯出，並使用 Element Plus UI 庫提供豐富的使用者界面",
-      "skill": [
-        "Vue 3",
-        "Vite",
-        "Element Plus",
-        "Tailwind CSS",
-        "Pinia",
-        "Axios",
-        "RESTful API",
-        "Chart.js"
-      ],
-      "content": [
-        "這是一個後臺管理系統的示範專案，示範我所製作過的後台系統"
-      ],
-      "link": "https://crazwade.github.io/BMS/dist"
     },
     {
       "title": "學生紀錄管理系統",
