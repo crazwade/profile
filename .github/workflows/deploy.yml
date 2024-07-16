@@ -3,7 +3,7 @@ run-name: ${{ github.actor }} GitHub Actions 自動部署 🚀
 on:
   push:
     tags:
-      - "v*" # 只有當 tag 名稱以 'ver' 開頭時觸發
+      - "v*" # 只有當 tag 名稱以 'v' 開頭時觸發
 jobs:
   autoDeploy:
     runs-on: ubuntu-latest
