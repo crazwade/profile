@@ -84,7 +84,7 @@
   },
   "aboutme-p1": "目前在坂和科技公司（SAKAWA Technology）擔任前端工程師，累積超過2年半的前端工作經驗。",
   "aboutme-p2": "前端框架方面，主要使用 Vue.js 框架搭配 TypeScript / Tailwind CSS，熟悉 RESTful API 串接、第三方 UI 框架(Element-Plus / Vuetify) 以及狀態管理庫(Pinia / Vuex)。",
-  "aboutme-p3": "工作經驗包括透過 Figma 與設計師合作，共同討論 UI / UX 並轉換成前端頁面，同時開發了前端組件化和模組應用。也有經驗處理跨瀏覽器網頁瀏覽、RWD 以及效能重繪問題，並熟悉使用 Git 開發進行部署和版本管理。並在每個專案都使用 Eslint 以確保 codeing style 降低閱讀成本。",
+  "aboutme-p3": "工作經驗包括透過 Figma 與設計師合作，共同討論 UI / UX 並轉換成前端頁面，同時開發了前端組件化和模組應用。也有經驗處理跨瀏覽器網頁瀏覽、RWD 以及效能重繪問題，並熟悉使用 Git 開發進行部署和版本管理。並在每個專案都使用 Eslint 以確保 coding style 降低閱讀成本。",
   "experience": [
     {
       "company": "坂和企業有限公司",
@@ -109,7 +109,7 @@
         "前端團隊主要使用 Vue.js 框架搭配 TypeScript / Tailwind CSS 來開發",
         "具有跨部門團隊合作經驗，與後端工程師、美術設計師和專案經理團隊合作超過10個專案（e.q. 中台管理系統、前台資訊網站、內部後端log查看系統...）",
         "使用 GitLab CI/CD 開發自動化部屬減少 30% 開發部署時間以及降低手動部署的失誤率",
-        "使用 ESLint 確保 codeing style 降低閱讀成本",
+        "使用 ESLint 確保 coding style 降低閱讀成本",
         "在大型專案中，專注於中介層製作。負責建立 API 接口、轉換資料類型，並處理畫面端和後端 API 之間的請求和資料傳輸功能"
       ],
       "link": "https://www.sakawa.com.tw/"
