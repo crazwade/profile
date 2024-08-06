@@ -221,6 +221,25 @@
         "This project is specially designed for project teaching teachers, and the estimated number of users is about 20"
       ],
       "link": "https://crazwade.github.io/CSR/dist/"
+    },
+    {
+      "title": "Poker Combination Analyzer",
+      "detail": "An interactive web application that demonstrates various combinations of poker cards and provides detailed analysis. Users can easily explore the results through an intuitive interface.",
+      "skill": [
+        "Vue 3",
+        "Nuxt.js",
+        "Pinia",
+        "Tailwind CSS",
+        "Vitest",
+        "Nuxt UI",
+        "Vue Router"
+      ],
+      "content": [
+        "Built with Nuxt.js and Vitest, featuring Nuxt UI components.",
+        "Implemented smooth card flipping animations to enhance user experience.",
+        "Developed algorithms to analyze hand combinations and visualize the results."
+      ],
+      "link": "https://crazwade.github.io/PokerComboAnalyzer/"
     }
   ],
   "updating": "Updating... coming soon..."
