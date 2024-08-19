@@ -108,9 +108,9 @@
       "content": [
         "Proficient in Vue.js, TypeScript, and Tailwind CSS for web application development",
         "Collaborated with cross-functional teams and created more than 10 projects（e.q. middleware management system, front-end information website, internal back-end log viewing system...）",
-        "Reduced development deployment time by 30% and minimized manual deployment errors through the use of GitLab CI/CD automation",
-        "Enforced consistent coding style using ESLint, resulting in improved code readability and maintainability",
-        "In large-scale projects, focusing on middleware tasks. Responsible for creating API interfaces, converting data types, and handling functions for API requests and payloads between frontend and backend"
+        "Automated deployment process from development to production using custom Shell and Node.js scripts, resulting in a 30% reduction in deployment time and a decrease in manual errors.",
+        "Implemented custom Axios interceptors for authentication, error handling, request/response interception, and more.",
+        "Integrated frontend with backend APIs by developing multiple RESTful APIs, ensuring data formats align with frontend requirements."
       ],
       "link": "https://www.sakawa.com.tw/"
     },
@@ -149,6 +149,21 @@
   ],
   "project": [
     {
+      "title": "Portfolio Showcase",
+      "detail": "Evolved from my first Vue.js project in 2021, this showcase demonstrates significant growth in frontend development skills. By incorporating TypeScript, Pinia, and component-based architecture, I've significantly improved code quality and maintainability. The project features a visually stunning 3D planetary display achieved through CSS3 transforms and is optimized for various screen sizes. Users can dynamically adjust the number and position of planets.",
+      "skill": [
+        "Vue 3",
+        "TypeScript",
+        "Tailwind CSS"
+      ],
+      "content": [
+        "Component-based architecture: Enhanced code modularity and maintainability by breaking down the application into reusable components.",
+        "3D transformations: Achieved a visually appealing 3D effect using CSS3 transforms.",
+        "Responsive design: Ensured a seamless user experience across different devices through responsive layouts."
+      ],
+      "link": "https://crazwade.github.io/PortfolioDisplay"
+    },
+    {
       "title": "LogViewer",
       "detail": "A log viewer system designed specifically for backend engineers in the company. It allows viewing and analyzing a large volume of log records.",
       "skill": [
@@ -158,7 +173,8 @@
         "Tailwind CSS"
       ],
       "content": [
-        "The system utilizes Element Plus’s Virtualized Table to display log records, ensuring smooth performance even with large datasets."
+        "Leveraged Element Plus's Virtualized Table to efficiently manage large-scale log data, improving system performance and user experience.",
+        "Employed vue-json-pretty to visualize JSON data in a hierarchical structure with color coding, enhancing readability and facilitating data analysis."
       ],
       "link": "https://crazwade.github.io/LogViewer/"
     },
@@ -176,24 +192,30 @@
         "Chart.js"
       ],
       "content": [
-        "Developed a backend management system demo project featuring essential functionalities like charts, login, permissions, and data querying",
-        "Leveraged Chart.js to visualize data, enhancing user experience and comprehension"
+        "Employed a component-based development approach using Element-Plus to enhance code maintainability and reusability.",
+        "Leveraged Chart.js to transform complex data into intuitive visualizations, improving user understanding and interaction.",
+        "Implemented robust authorization controls using Axios interceptors, combining system-defined permission lists with dynamically fetched user permissions. This ensures that users can only access authorized API endpoints, significantly enhancing system security and preventing unauthorized access."
       ],
       "link": "https://crazwade.github.io/BMS/dist"
     },
     {
-      "title": "ShareHub",
-      "detail": "ShareHub is an English article and image sharing platform that enables users to effortlessly share and explore interesting content.",
+      "title": "Poker Combination Analyzer",
+      "detail": "An interactive web application that demonstrates various combinations of poker cards and provides detailed analysis. Users can easily explore the results through an intuitive interface.",
       "skill": [
         "Vue 3",
-        "Vite",
-        "Element Plus",
-        "Tailwind CSS"
+        "Nuxt.js",
+        "Pinia",
+        "Tailwind CSS",
+        "Vitest",
+        "Nuxt UI",
+        "Vue Router"
       ],
       "content": [
-        "Designed for internal use within an English-speaking community in the company, with an estimated user base of approximately 30-50 users"
+        "Built with Nuxt.js and Vitest, featuring Nuxt UI components.",
+        "Implemented smooth card flipping animations to enhance user experience.",
+        "Developed algorithms to analyze hand combinations and visualize the results."
       ],
-      "link": "https://crazwade.github.io/english-club/dist"
+      "link": "https://crazwade.github.io/PokerComboAnalyzer/"
     },
     {
       "title": "NUK International Student Application System",
@@ -218,28 +240,10 @@
         "Tailwind CSS"
       ],
       "content": [
-        "This project is specially designed for project teaching teachers, and the estimated number of users is about 20"
+        "This project is specially designed for project teaching teachers, and the estimated number of users is about 20",
+        "By automating the generation of learning records, teachers can streamline course management and efficiently complete contact logs."
       ],
       "link": "https://crazwade.github.io/CSR/dist/"
-    },
-    {
-      "title": "Poker Combination Analyzer",
-      "detail": "An interactive web application that demonstrates various combinations of poker cards and provides detailed analysis. Users can easily explore the results through an intuitive interface.",
-      "skill": [
-        "Vue 3",
-        "Nuxt.js",
-        "Pinia",
-        "Tailwind CSS",
-        "Vitest",
-        "Nuxt UI",
-        "Vue Router"
-      ],
-      "content": [
-        "Built with Nuxt.js and Vitest, featuring Nuxt UI components.",
-        "Implemented smooth card flipping animations to enhance user experience.",
-        "Developed algorithms to analyze hand combinations and visualize the results."
-      ],
-      "link": "https://crazwade.github.io/PokerComboAnalyzer/"
     }
   ],
   "updating": "Updating... coming soon..."
